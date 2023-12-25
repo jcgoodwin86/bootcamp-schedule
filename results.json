@@ -1,0 +1,5290 @@
+[
+  {
+    "title": "Welcome to the career path",
+    "module": "Module 1",
+    "totalLessons": "10 lessons",
+    "totalTime": "25 min",
+    "chapters": [
+      {
+        "title": "Getting started",
+        "totalLessons": "3 lessons",
+        "totalTime": "10 min",
+        "lessons": [
+          {
+            "title": "1. Why learning web development is a superpower",
+            "time": "2:48"
+          },
+          {
+            "title": "2. Let's Make a Cake!",
+            "time": "4:54"
+          },
+          {
+            "title": "3. Join the community",
+            "time": "2:58"
+          }
+        ]
+      },
+      {
+        "title": "Your own personalized web app",
+        "totalLessons": "7 lessons",
+        "totalTime": "15 min",
+        "lessons": [
+          {
+            "title": "1. Add your Name and Emoji",
+            "time": "2:41"
+          },
+          {
+            "title": "2. Display Photos",
+            "time": "2:16"
+          },
+          {
+            "title": "3. Change the Background Image",
+            "time": "1:19"
+          },
+          {
+            "title": "4. Choose a Color",
+            "time": "1:03"
+          },
+          {
+            "title": "5. Set the Font, Border, and Column Count",
+            "time": "2:25"
+          },
+          {
+            "title": "6. Share your website",
+            "time": "1:35"
+          },
+          {
+            "title": "7. Two ways to do the path",
+            "time": "3:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Web dev basics",
+    "module": "Module 2",
+    "totalLessons": "99 lessons",
+    "totalTime": "5 hours 14 min",
+    "chapters": [
+      {
+        "title": "Build & deploy your first website",
+        "totalLessons": "17 lessons",
+        "totalTime": "1 hour 2 min",
+        "lessons": [
+          {
+            "title": "1. Module 2 intro - web dev basics",
+            "time": "2:11"
+          },
+          {
+            "title": "2. HTML tags",
+            "time": "3:18"
+          },
+          {
+            "title": "3. Write a news article!",
+            "time": "2:06"
+          },
+          {
+            "title": "4. Aside: The <img> tag",
+            "time": "4:56"
+          },
+          {
+            "title": "5. Aside: Nesting",
+            "time": "2:49"
+          },
+          {
+            "title": "6. Internet superpowers -> Change the BBC news!",
+            "time": "4:57"
+          },
+          {
+            "title": "7. Aside: Buttons",
+            "time": "1:59"
+          },
+          {
+            "title": "8. Aside: Input tags",
+            "time": "4:58"
+          },
+          {
+            "title": "9. Let's build Google!",
+            "time": "3:50"
+          },
+          {
+            "title": "10. Aside: Anchor tags",
+            "time": "4:33"
+          },
+          {
+            "title": "11. Add an anchor tag to Google.com",
+            "time": "1:35"
+          },
+          {
+            "title": "12. Aside: Proper document structure",
+            "time": "5:42"
+          },
+          {
+            "title": "13. Aside: Lists",
+            "time": "3:54"
+          },
+          {
+            "title": "14. Build a Personal Website",
+            "time": "8:42"
+          },
+          {
+            "title": "15. Deploy your Personal Website",
+            "time": "3:13"
+          },
+          {
+            "title": "16. Recap ",
+            "time": "1:56"
+          },
+          {
+            "title": "17. Get to know the module channels! 💜",
+            "time": "1:34"
+          }
+        ]
+      },
+      {
+        "title": "Build a Google.com clone",
+        "totalLessons": "24 lessons",
+        "totalTime": "1 hour 16 min",
+        "lessons": [
+          {
+            "title": "1. Let's learn CSS!",
+            "time": "0:44"
+          },
+          {
+            "title": "2. Write your first lines of CSS!",
+            "time": "4:16"
+          },
+          {
+            "title": "3. Write your first lines of CSS! - Solution",
+            "time": "3:32"
+          },
+          {
+            "title": "4. Let's destroy wikipedia",
+            "time": "1:55"
+          },
+          {
+            "title": "5. Link to the CSS file",
+            "time": "2:36"
+          },
+          {
+            "title": "6. Set the width of the elements ",
+            "time": "2:05"
+          },
+          {
+            "title": "7. inline vs block elements ",
+            "time": "2:15"
+          },
+          {
+            "title": "8. Margin top",
+            "time": "1:13"
+          },
+          {
+            "title": "9. Divs rule the world",
+            "time": "2:02"
+          },
+          {
+            "title": "10. CSS classes",
+            "time": "3:53"
+          },
+          {
+            "title": "11. Aside: Learn margins via flags",
+            "time": "5:54"
+          },
+          {
+            "title": "12. Add space between our elements",
+            "time": "1:03"
+          },
+          {
+            "title": "13. Aside: centering with margins",
+            "time": "3:23"
+          },
+          {
+            "title": "14. Centering our content",
+            "time": "1:19"
+          },
+          {
+            "title": "15. Aside: padding",
+            "time": "5:17"
+          },
+          {
+            "title": "16. Aside: border and border-radius",
+            "time": "5:06"
+          },
+          {
+            "title": "17. Aside challenge: style Twitter button",
+            "time": "4:59"
+          },
+          {
+            "title": "18. Fix the input field",
+            "time": "4:43"
+          },
+          {
+            "title": "19. Center the button",
+            "time": "2:16"
+          },
+          {
+            "title": "20. Style the button",
+            "time": "4:26"
+          },
+          {
+            "title": "21. Why we can't have two block-level buttons",
+            "time": "4:25"
+          },
+          {
+            "title": "22. Aside: flexbox",
+            "time": "3:40"
+          },
+          {
+            "title": "23. Centering both buttons with flexbox",
+            "time": "2:52"
+          },
+          {
+            "title": "24. Google clone recap",
+            "time": "2:04"
+          }
+        ]
+      },
+      {
+        "title": "Build a digital Business Card",
+        "totalLessons": "19 lessons",
+        "totalTime": "56 min",
+        "lessons": [
+          {
+            "title": "1. Building your digital business card",
+            "time": "0:29"
+          },
+          {
+            "title": "2. Fix the image path",
+            "time": "2:53"
+          },
+          {
+            "title": "3. Add alt attribute",
+            "time": "4:24"
+          },
+          {
+            "title": "4. Make image smaller",
+            "time": "1:13"
+          },
+          {
+            "title": "5. Add a border and padding",
+            "time": "3:46"
+          },
+          {
+            "title": "6. Aside: flexbox child containers",
+            "time": "3:37"
+          },
+          {
+            "title": "7. Flex item containers",
+            "time": "1:37"
+          },
+          {
+            "title": "8. Add a utility class",
+            "time": "3:09"
+          },
+          {
+            "title": "9. Justify the items",
+            "time": "2:06"
+          },
+          {
+            "title": "10. Center the card",
+            "time": "1:56"
+          },
+          {
+            "title": "11. Aside: inheritance",
+            "time": "4:14"
+          },
+          {
+            "title": "12. Center the text via inheritance",
+            "time": "2:57"
+          },
+          {
+            "title": "13. Add colors",
+            "time": "3:21"
+          },
+          {
+            "title": "14. Web-safe fonts",
+            "time": "5:05"
+          },
+          {
+            "title": "15. Aside: margin/padding shorthand",
+            "time": "3:59"
+          },
+          {
+            "title": "16. Use the margin&padding shorthands",
+            "time": "1:13"
+          },
+          {
+            "title": "17. Make it your own!",
+            "time": "3:01"
+          },
+          {
+            "title": "18. Deploy your Digital Business Card",
+            "time": "4:46"
+          },
+          {
+            "title": "19. Business Card recap",
+            "time": "2:09"
+          }
+        ]
+      },
+      {
+        "title": "Build a Space Exploration site",
+        "totalLessons": "14 lessons",
+        "totalTime": "43 min",
+        "lessons": [
+          {
+            "title": "1. Let's go to space!",
+            "time": "0:34"
+          },
+          {
+            "title": "2. Add a background image from unsplash",
+            "time": "3:57"
+          },
+          {
+            "title": "3. Center elements and style button",
+            "time": "3:15"
+          },
+          {
+            "title": "4. Aside:  Google Fonts",
+            "time": "4:18"
+          },
+          {
+            "title": "5. Aside: @font-face",
+            "time": "2:03"
+          },
+          {
+            "title": "6. Aside: spans",
+            "time": "3:56"
+          },
+          {
+            "title": "7. Add an underline using a span",
+            "time": "1:46"
+          },
+          {
+            "title": "8. Use an ID for the logo",
+            "time": "4:22"
+          },
+          {
+            "title": "9. Replace the jpg with a webp",
+            "time": "2:31"
+          },
+          {
+            "title": "10. Choose a color palette from an image",
+            "time": "2:51"
+          },
+          {
+            "title": "11. Add the terms & conditions section",
+            "time": "3:55"
+          },
+          {
+            "title": "12. Aside: text shadow",
+            "time": "5:57"
+          },
+          {
+            "title": "13. Improving the readability with text shadows",
+            "time": "1:57"
+          },
+          {
+            "title": "14. Space Exploration recap",
+            "time": "1:41"
+          }
+        ]
+      },
+      {
+        "title": "Build a Birthday GIFt Site",
+        "totalLessons": "20 lessons",
+        "totalTime": "1 hour 2 min",
+        "lessons": [
+          {
+            "title": "1. Let's build a Birthday GIFt site!",
+            "time": "1:07"
+          },
+          {
+            "title": "2. Add basic header styling",
+            "time": "3:31"
+          },
+          {
+            "title": "3. Set the colors",
+            "time": "1:22"
+          },
+          {
+            "title": "4. Add shadow on text",
+            "time": "3:17"
+          },
+          {
+            "title": "5. We have a problem that flexbox can fix",
+            "time": "2:32"
+          },
+          {
+            "title": "6. Aside: align-items",
+            "time": "5:59"
+          },
+          {
+            "title": "7. Aside: flex-direction",
+            "time": "4:25"
+          },
+          {
+            "title": "8. Turn the header into a flexbox",
+            "time": "1:41"
+          },
+          {
+            "title": "9. Fix date and age design",
+            "time": "4:06"
+          },
+          {
+            "title": "10. Create the first gift",
+            "time": "5:17"
+          },
+          {
+            "title": "11. Replace the img with a div",
+            "time": "4:15"
+          },
+          {
+            "title": "12. Aside: make elements change on hover",
+            "time": "2:51"
+          },
+          {
+            "title": "13. Add the hover effect",
+            "time": "2:05"
+          },
+          {
+            "title": "14. Create the next GIFt",
+            "time": "4:19"
+          },
+          {
+            "title": "15. Create two more GIFts",
+            "time": "2:33"
+          },
+          {
+            "title": "16. Create the final GIFt",
+            "time": "3:20"
+          },
+          {
+            "title": "17. Add the footer",
+            "time": "3:37"
+          },
+          {
+            "title": "18. Add a background gradient",
+            "time": "3:25"
+          },
+          {
+            "title": "19. Personalize, deploy and share to Discord",
+            "time": "1:36"
+          },
+          {
+            "title": "20. GIFt site recap",
+            "time": "1:26"
+          }
+        ]
+      },
+      {
+        "title": "Solo Project: Hometown Homepage",
+        "totalLessons": "5 lessons",
+        "totalTime": "14 min",
+        "lessons": [
+          {
+            "title": "1. It's time to go solo!",
+            "time": "2:15"
+          },
+          {
+            "title": "2. Solo Project: Hometown Homepage",
+            "time": "4:04"
+          },
+          {
+            "title": "3. Get a code review!",
+            "time": "2:46"
+          },
+          {
+            "title": "4. Code Review by Guil Hernandez",
+            "time": "3:59"
+          },
+          {
+            "title": "5. Congratulations on completing Module 2! 🥳",
+            "time": "0:55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Making websites interactive",
+    "module": "Module 3",
+    "totalLessons": "208 lessons",
+    "totalTime": "10 hours 18 min",
+    "chapters": [
+      {
+        "title": "Build a passenger counter app",
+        "totalLessons": "32 lessons",
+        "totalTime": "1 hour 21 min",
+        "lessons": [
+          {
+            "title": "1. Making Websites Interactive - Module Intro",
+            "time": "1:39"
+          },
+          {
+            "title": "2. Share your plan in #today-i-will!",
+            "time": "0:35"
+          },
+          {
+            "title": "3. Let's build a passenger counter app!",
+            "time": "0:59"
+          },
+          {
+            "title": "4. Setting up our JavaScript file",
+            "time": "2:59"
+          },
+          {
+            "title": "5. Write your first JavaScript variable",
+            "time": "4:52"
+          },
+          {
+            "title": "6. Basic mathematical operations",
+            "time": "3:35"
+          },
+          {
+            "title": "7. Reassigning and incrementing",
+            "time": "3:46"
+          },
+          {
+            "title": "8. Adding a button",
+            "time": "1:31"
+          },
+          {
+            "title": "9. The onclick event listener",
+            "time": "3:23"
+          },
+          {
+            "title": "10. Using functions to write less code",
+            "time": "3:33"
+          },
+          {
+            "title": "11. Write your first function",
+            "time": "0:43"
+          },
+          {
+            "title": "12. Write a function that logs the sum",
+            "time": "2:46"
+          },
+          {
+            "title": "13. Write a function that increments",
+            "time": "1:54"
+          },
+          {
+            "title": "14. Increment on clicks",
+            "time": "2:08"
+          },
+          {
+            "title": "15. Display the count",
+            "time": "5:13"
+          },
+          {
+            "title": "16. The Document Object Model",
+            "time": "1:51"
+          },
+          {
+            "title": "17. Display the count with innerText",
+            "time": "0:39"
+          },
+          {
+            "title": "18. Create the save button",
+            "time": "2:05"
+          },
+          {
+            "title": "19. What is a string?",
+            "time": "1:33"
+          },
+          {
+            "title": "20. Write your first string variable",
+            "time": "3:39"
+          },
+          {
+            "title": "21. Log a greeting to the console",
+            "time": "1:16"
+          },
+          {
+            "title": "22. Strings vs. Numbers",
+            "time": "2:43"
+          },
+          {
+            "title": "23. Render a welcome message",
+            "time": "2:00"
+          },
+          {
+            "title": "24. Improve the message with string concatenation",
+            "time": "2:15"
+          },
+          {
+            "title": "25. Use plus equal for count",
+            "time": "0:25"
+          },
+          {
+            "title": "26. Create the save feature",
+            "time": "4:36"
+          },
+          {
+            "title": "27. Debugging online",
+            "time": "3:49"
+          },
+          {
+            "title": "28. Set the count to 0",
+            "time": "2:52"
+          },
+          {
+            "title": "29. Personalize and Download Your App",
+            "time": "4:37"
+          },
+          {
+            "title": "30. Deploy with Netlify",
+            "time": "4:02"
+          },
+          {
+            "title": "31. Congrats & recap",
+            "time": "3:14"
+          },
+          {
+            "title": "32. Share your win!",
+            "time": "0:27"
+          }
+        ]
+      },
+      {
+        "title": "JavaScript challenges - part 1",
+        "totalLessons": "9 lessons",
+        "totalTime": "22 min",
+        "lessons": [
+          {
+            "title": "1. Variables practice",
+            "time": "1:52"
+          },
+          {
+            "title": "2. Concatenate two strings in a function",
+            "time": "0:58"
+          },
+          {
+            "title": "3. Incrementing and decrementing",
+            "time": "2:11"
+          },
+          {
+            "title": "4. Strings and numbers",
+            "time": "1:34"
+          },
+          {
+            "title": "5. Rendering an error message",
+            "time": "3:15"
+          },
+          {
+            "title": "6. Calculator challenge",
+            "time": "5:30"
+          },
+          {
+            "title": "7. Figma tutorial ",
+            "time": "1:04"
+          },
+          {
+            "title": "8. Solo Project (PRO) - Basketball Scoreboard",
+            "time": "4:21"
+          },
+          {
+            "title": "9. Build exclusive Solo Projects",
+            "time": "1:32"
+          }
+        ]
+      },
+      {
+        "title": "Set Up a Local Dev Environment",
+        "totalLessons": "4 lessons",
+        "totalTime": "12 min",
+        "lessons": [
+          {
+            "title": "1. Section Intro",
+            "time": "2:49"
+          },
+          {
+            "title": "2. Getting Started with GitHub Desktop ",
+            "time": "4:18"
+          },
+          {
+            "title": "3. Edit with VS Code and Push to GitHub",
+            "time": "3:45"
+          },
+          {
+            "title": "4. Deploy and Share Your Solo Project",
+            "time": "1:34"
+          }
+        ]
+      },
+      {
+        "title": "Build a Blackjack game",
+        "totalLessons": "54 lessons",
+        "totalTime": "2 hours 40 min",
+        "lessons": [
+          {
+            "title": "1. Let's build a Blackjack game!",
+            "time": "0:57"
+          },
+          {
+            "title": "2. Add the firstCard, secondCard, and sum",
+            "time": "0:52"
+          },
+          {
+            "title": "3. If...else conditionals",
+            "time": "5:39"
+          },
+          {
+            "title": "4. Your first if...else statement",
+            "time": "2:53"
+          },
+          {
+            "title": "5. if/else...if/else statement",
+            "time": "3:21"
+          },
+          {
+            "title": "6. The if...else statement for our game",
+            "time": "1:59"
+          },
+          {
+            "title": "7. Add the hasBlackJack variable",
+            "time": "2:03"
+          },
+          {
+            "title": "8. Add the isAlive variable",
+            "time": "1:44"
+          },
+          {
+            "title": "9. Let's practice boolean conditions",
+            "time": "3:25"
+          },
+          {
+            "title": "10. Add the message variable",
+            "time": "3:21"
+          },
+          {
+            "title": "11. Link to stylesheet",
+            "time": "2:32"
+          },
+          {
+            "title": "12. Add basic styling",
+            "time": "4:18"
+          },
+          {
+            "title": "13. Make the start button work",
+            "time": "5:49"
+          },
+          {
+            "title": "14. Display the message",
+            "time": "2:32"
+          },
+          {
+            "title": "15. Display the sum",
+            "time": "5:43"
+          },
+          {
+            "title": "16. Display the cards",
+            "time": "1:53"
+          },
+          {
+            "title": "17. New card button",
+            "time": "3:39"
+          },
+          {
+            "title": "18. Add to the sum when newCard is clicked",
+            "time": "3:16"
+          },
+          {
+            "title": "19. Rename the startGame function",
+            "time": "2:11"
+          },
+          {
+            "title": "20. Solving our cards problem with an array",
+            "time": "3:16"
+          },
+          {
+            "title": "21. Aside: Intro to arrays",
+            "time": "5:24"
+          },
+          {
+            "title": "22. Aside: Array indexes",
+            "time": "4:03"
+          },
+          {
+            "title": "23. Arrays with multiple data types",
+            "time": "2:18"
+          },
+          {
+            "title": "24. Aside: Array.push() and .pop()",
+            "time": "4:20"
+          },
+          {
+            "title": "25. Creating the cards array",
+            "time": "1:04"
+          },
+          {
+            "title": "26. Push a new card to the array",
+            "time": "1:18"
+          },
+          {
+            "title": "27. Aside: Loops",
+            "time": "4:01"
+          },
+          {
+            "title": "28. Write your first loop",
+            "time": "3:22"
+          },
+          {
+            "title": "29. Aside: For loops and arrays",
+            "time": "3:43"
+          },
+          {
+            "title": "30. Write your first array-based for loop",
+            "time": "1:29"
+          },
+          {
+            "title": "31. For loops, arrays, and DOM",
+            "time": "2:55"
+          },
+          {
+            "title": "32. Use a loop to render cards",
+            "time": "2:16"
+          },
+          {
+            "title": "33. How can we avoid to hard-code card values?",
+            "time": "1:31"
+          },
+          {
+            "title": "34. Aside: Returning values in functions",
+            "time": "4:59"
+          },
+          {
+            "title": "35. Use a function to set the card values",
+            "time": "3:06"
+          },
+          {
+            "title": "36. Aside: Math.random()",
+            "time": "4:15"
+          },
+          {
+            "title": "37. Math.random() * 6",
+            "time": "1:43"
+          },
+          {
+            "title": "38. Flooring the number with Math.floor()",
+            "time": "1:24"
+          },
+          {
+            "title": "39. Using Math.random() and Math.floor() to create a dice",
+            "time": "1:40"
+          },
+          {
+            "title": "40. Completing our dice function",
+            "time": "2:37"
+          },
+          {
+            "title": "41. Make getRandomCard() work",
+            "time": "2:54"
+          },
+          {
+            "title": "42. Complete getRandomNumber function",
+            "time": "3:02"
+          },
+          {
+            "title": "43. Assign values in the startGame function",
+            "time": "2:42"
+          },
+          {
+            "title": "44. Our new card feature is broken",
+            "time": "0:59"
+          },
+          {
+            "title": "45. Aside: The AND operator (&&)",
+            "time": "3:41"
+          },
+          {
+            "title": "46. Write your first logical operator",
+            "time": "2:04"
+          },
+          {
+            "title": "47. Aside: The OR operator (||)",
+            "time": "3:02"
+          },
+          {
+            "title": "48. Only trigger newCard() if you're allowed to",
+            "time": "1:27"
+          },
+          {
+            "title": "49. Object sneak peek",
+            "time": "4:32"
+          },
+          {
+            "title": "50. Aside: Intro to objects",
+            "time": "4:43"
+          },
+          {
+            "title": "51. Create your first object",
+            "time": "3:15"
+          },
+          {
+            "title": "52. Use an object to store player data",
+            "time": "2:37"
+          },
+          {
+            "title": "53. Methods on object",
+            "time": "1:58"
+          },
+          {
+            "title": "54. Congrats & recap",
+            "time": "4:24"
+          }
+        ]
+      },
+      {
+        "title": "JavaScript challenges - part 2",
+        "totalLessons": "9 lessons",
+        "totalTime": "25 min",
+        "lessons": [
+          {
+            "title": "1. Objects and functions",
+            "time": "2:00"
+          },
+          {
+            "title": "2. if else",
+            "time": "2:48"
+          },
+          {
+            "title": "3. Loops and arrays",
+            "time": "2:04"
+          },
+          {
+            "title": "4. push, pop, unshift, shift challenge",
+            "time": "3:25"
+          },
+          {
+            "title": "5. Logical operators",
+            "time": "1:56"
+          },
+          {
+            "title": "6. Rock papers scissors",
+            "time": "2:59"
+          },
+          {
+            "title": "7. EmojiFighter",
+            "time": "4:32"
+          },
+          {
+            "title": "8. Sorting fruits",
+            "time": "2:57"
+          },
+          {
+            "title": "9. Solo Project (PRO) - Password Generator",
+            "time": "2:43"
+          }
+        ]
+      },
+      {
+        "title": "Build a Chrome Extension",
+        "totalLessons": "55 lessons",
+        "totalTime": "2 hours 46 min",
+        "lessons": [
+          {
+            "title": "1. Let's build a Chrome Extension!",
+            "time": "4:33"
+          },
+          {
+            "title": "2. Add button and input tag",
+            "time": "1:33"
+          },
+          {
+            "title": "3. Style the button and input tag",
+            "time": "7:16"
+          },
+          {
+            "title": "4. Make the input button work with onclick",
+            "time": "1:17"
+          },
+          {
+            "title": "5. Refactor to addEventListener",
+            "time": "2:18"
+          },
+          {
+            "title": "6. Write your first addEventListener()",
+            "time": "1:44"
+          },
+          {
+            "title": "7. Your turn to refactor",
+            "time": "1:22"
+          },
+          {
+            "title": "8. Create the myLeads array and inputEl",
+            "time": "2:21"
+          },
+          {
+            "title": "9. When to use let and const",
+            "time": "3:17"
+          },
+          {
+            "title": "10. Push to the myLeads array",
+            "time": "1:10"
+          },
+          {
+            "title": "11. Push the value from the input field",
+            "time": "2:27"
+          },
+          {
+            "title": "12. Use a for loop to log out leads",
+            "time": "1:39"
+          },
+          {
+            "title": "13. Create the unordered list",
+            "time": "1:55"
+          },
+          {
+            "title": "14. Render the leads in the unordered list",
+            "time": "3:41"
+          },
+          {
+            "title": "15. How to render <li> elements with innerHTML",
+            "time": "1:33"
+          },
+          {
+            "title": "16. Write your first innerHTML",
+            "time": "1:31"
+          },
+          {
+            "title": "17. More innerHTML practice",
+            "time": "1:48"
+          },
+          {
+            "title": "18. Render the <li> elements with innerHTML",
+            "time": "1:07"
+          },
+          {
+            "title": "19. Use createElement() and append() instead of innerHTML",
+            "time": "3:35"
+          },
+          {
+            "title": "20. Improving the performance of our app",
+            "time": "3:17"
+          },
+          {
+            "title": "21. Create the render function ",
+            "time": "2:00"
+          },
+          {
+            "title": "22. Clear the input field",
+            "time": "2:03"
+          },
+          {
+            "title": "23. Add the <a> tag",
+            "time": "4:28"
+          },
+          {
+            "title": "24. Template strings",
+            "time": "2:30"
+          },
+          {
+            "title": "25. Write your first template string",
+            "time": "1:15"
+          },
+          {
+            "title": "26. Make the template string even more dynamic",
+            "time": "0:51"
+          },
+          {
+            "title": "27. Template strings on multiple lines",
+            "time": "2:53"
+          },
+          {
+            "title": "28. Refactor the app to use a template string",
+            "time": "1:12"
+          },
+          {
+            "title": "29. Style the list",
+            "time": "3:50"
+          },
+          {
+            "title": "30. Preparing the deployment",
+            "time": "4:52"
+          },
+          {
+            "title": "31. Deploying the Chrome Extension",
+            "time": "2:28"
+          },
+          {
+            "title": "32. Aside: What is localStorage?",
+            "time": "3:02"
+          },
+          {
+            "title": "33. Your first localStorage",
+            "time": "3:48"
+          },
+          {
+            "title": "34. Storing arrays in localStorage",
+            "time": "6:23"
+          },
+          {
+            "title": "35. Save the leads to localStorage",
+            "time": "2:28"
+          },
+          {
+            "title": "36. Get the leads from localStorage",
+            "time": "3:50"
+          },
+          {
+            "title": "37. Aside: Truthy and falsy values",
+            "time": "7:54"
+          },
+          {
+            "title": "38. Guess the expression - truthy or falsy?",
+            "time": "2:22"
+          },
+          {
+            "title": "39. Checking localStorage before rendering",
+            "time": "3:37"
+          },
+          {
+            "title": "40. Style the delete button",
+            "time": "3:17"
+          },
+          {
+            "title": "41. Make the delete button work",
+            "time": "4:16"
+          },
+          {
+            "title": "42. How function parameters can improve our code",
+            "time": "5:54"
+          },
+          {
+            "title": "43. Write your first function parameter",
+            "time": "3:27"
+          },
+          {
+            "title": "44. Functions with multiple parameters",
+            "time": "3:11"
+          },
+          {
+            "title": "45. Numbers as function parameters",
+            "time": "1:41"
+          },
+          {
+            "title": "46. Aside: Arguments vs Parameters",
+            "time": "3:22"
+          },
+          {
+            "title": "47. Arrays as parameters",
+            "time": "1:54"
+          },
+          {
+            "title": "48. Refactor renderLeads() to use a parameter",
+            "time": "1:39"
+          },
+          {
+            "title": "49. Create the tabBtn",
+            "time": "3:19"
+          },
+          {
+            "title": "50. Save the tab url",
+            "time": "2:35"
+          },
+          {
+            "title": "51. How to get the current tab?",
+            "time": "4:19"
+          },
+          {
+            "title": "52. Use the Chrome API to get the tab",
+            "time": "6:18"
+          },
+          {
+            "title": "53. Deploy the final version",
+            "time": "2:14"
+          },
+          {
+            "title": "54. Congrats & recap",
+            "time": "5:43"
+          },
+          {
+            "title": "55. Share your pet!",
+            "time": "1:23"
+          }
+        ]
+      },
+      {
+        "title": "JavaScript challenges - part 3",
+        "totalLessons": "9 lessons",
+        "totalTime": "26 min",
+        "lessons": [
+          {
+            "title": "1. let & const",
+            "time": "3:12"
+          },
+          {
+            "title": "2. Log out items in an array",
+            "time": "1:17"
+          },
+          {
+            "title": "3. save to localStorage",
+            "time": "1:53"
+          },
+          {
+            "title": "4. addEventListener and object in array",
+            "time": "2:39"
+          },
+          {
+            "title": "5. Generate sentence",
+            "time": "4:53"
+          },
+          {
+            "title": "6. Render images",
+            "time": "6:05"
+          },
+          {
+            "title": "7. Rounding numbers",
+            "time": "1:45"
+          },
+          {
+            "title": "8. Convert string to number challenge",
+            "time": "2:24"
+          },
+          {
+            "title": "9. Solo Project (PRO) - Unit converter",
+            "time": "1:54"
+          }
+        ]
+      },
+      {
+        "title": "Build a Mobile App",
+        "totalLessons": "36 lessons",
+        "totalTime": "2 hours 3 min",
+        "lessons": [
+          {
+            "title": "1. Let's Build a Mobile App with Firebase",
+            "time": "3:33"
+          },
+          {
+            "title": "2. Setting up app skeleton",
+            "time": "3:47"
+          },
+          {
+            "title": "3. Adding CSS",
+            "time": "4:21"
+          },
+          {
+            "title": "4. Aside: Firebase Realtime Database",
+            "time": "10:01"
+          },
+          {
+            "title": "5. Adding Firebase to project",
+            "time": "4:49"
+          },
+          {
+            "title": "6. Security Rules",
+            "time": "2:30"
+          },
+          {
+            "title": "7. innerHTML to append li to ul",
+            "time": "3:33"
+          },
+          {
+            "title": "8. Refactoring",
+            "time": "4:48"
+          },
+          {
+            "title": "9. Aside: Turning an Object into an Array",
+            "time": "4:11"
+          },
+          {
+            "title": "10. Aside: Fetching database items in realtime using onValue",
+            "time": "10:22"
+          },
+          {
+            "title": "11. Updating items in realtime",
+            "time": "2:43"
+          },
+          {
+            "title": "12. For loop to render database items",
+            "time": "2:57"
+          },
+          {
+            "title": "13. Let's smash the bug",
+            "time": "2:47"
+          },
+          {
+            "title": "14. Aside: Flexbox flex-wrap",
+            "time": "1:18"
+          },
+          {
+            "title": "15. Aside: Flexbox gap",
+            "time": "1:18"
+          },
+          {
+            "title": "16. Adding CSS for <li> to wrap items",
+            "time": "4:04"
+          },
+          {
+            "title": "17. Getting ID of item in database",
+            "time": "4:10"
+          },
+          {
+            "title": "18. Replacing innerHTML with createElement",
+            "time": "5:11"
+          },
+          {
+            "title": "19. Aside: Removing items from Firebase",
+            "time": "5:17"
+          },
+          {
+            "title": "20. Removing an item when clicked",
+            "time": "4:10"
+          },
+          {
+            "title": "21. Only fetching items from database if snapshot exists",
+            "time": "4:02"
+          },
+          {
+            "title": "22. Adding hover styles to buttons",
+            "time": "1:49"
+          },
+          {
+            "title": "23. Aside: user-select",
+            "time": "1:41"
+          },
+          {
+            "title": "24. Aside: Setting the viewport",
+            "time": "1:50"
+          },
+          {
+            "title": "25. Making the app more mobile-friendly",
+            "time": "1:34"
+          },
+          {
+            "title": "26. Aside: Favicon",
+            "time": "2:04"
+          },
+          {
+            "title": "27. Adding favicon and phone icons",
+            "time": "1:13"
+          },
+          {
+            "title": "28. Aside: Web Application Manifest",
+            "time": "2:37"
+          },
+          {
+            "title": "29. Turning web app into \"mobile\" app",
+            "time": "0:58"
+          },
+          {
+            "title": "30. Personalise your app",
+            "time": "1:27"
+          },
+          {
+            "title": "31. Deploy to Netlify",
+            "time": "2:35"
+          },
+          {
+            "title": "32. Add app to home screen",
+            "time": "1:52"
+          },
+          {
+            "title": "33. Share your creation",
+            "time": "1:45"
+          },
+          {
+            "title": "34. Recap",
+            "time": "3:41"
+          },
+          {
+            "title": "35. Solo Project (PRO) - We are the Champions",
+            "time": "3:50"
+          },
+          {
+            "title": "36. Congrats on completing the Learn JavaScript course!",
+            "time": "4:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Essential CSS concepts",
+    "module": "Module 4",
+    "totalLessons": "68 lessons",
+    "totalTime": "4 hours 13 min",
+    "chapters": [
+      {
+        "title": "Build an NFT Site",
+        "totalLessons": "32 lessons",
+        "totalTime": "1 hour 58 min",
+        "lessons": [
+          {
+            "title": "1. Essential CSS Concepts Intro",
+            "time": "1:23"
+          },
+          {
+            "title": "2. Build an NFT Site Intro",
+            "time": "1:35"
+          },
+          {
+            "title": "3. Semantic HTML - Header, Main, Section, Footer",
+            "time": "5:41"
+          },
+          {
+            "title": "4. Set up the CSS basics",
+            "time": "3:58"
+          },
+          {
+            "title": "5. Aside: Margins - strange behaviour",
+            "time": "5:39"
+          },
+          {
+            "title": "6. Header",
+            "time": "3:44"
+          },
+          {
+            "title": "7. The first section - image",
+            "time": "2:37"
+          },
+          {
+            "title": "8. The first section - text",
+            "time": "5:49"
+          },
+          {
+            "title": "9. Aside: Hover and active states",
+            "time": "7:44"
+          },
+          {
+            "title": "10. The first section - links",
+            "time": "2:21"
+          },
+          {
+            "title": "11. Aside: background full width",
+            "time": "5:46"
+          },
+          {
+            "title": "12. Content Container",
+            "time": "3:41"
+          },
+          {
+            "title": "13. CSS organisation new",
+            "time": "3:16"
+          },
+          {
+            "title": "14. The second section colors",
+            "time": "2:54"
+          },
+          {
+            "title": "15. A quick word about Flexbox",
+            "time": "0:50"
+          },
+          {
+            "title": "16. The second section imgs",
+            "time": "4:24"
+          },
+          {
+            "title": "17. Style the Footer",
+            "time": "2:10"
+          },
+          {
+            "title": "18. Grouping Selectors",
+            "time": "4:25"
+          },
+          {
+            "title": "19. Warning: Viewing Problems",
+            "time": "0:44"
+          },
+          {
+            "title": "20. Aside: Specificity",
+            "time": "6:20"
+          },
+          {
+            "title": "21. Aside: Compound selectors",
+            "time": "6:19"
+          },
+          {
+            "title": "22. Aside: Compound selectors and specificity",
+            "time": "4:51"
+          },
+          {
+            "title": "23. Line-height debug",
+            "time": "3:19"
+          },
+          {
+            "title": "24. CSS specificity and !important keyword",
+            "time": "2:53"
+          },
+          {
+            "title": "25. Aside: Buttons/Links",
+            "time": "3:21"
+          },
+          {
+            "title": "26. Style the buttons individually new",
+            "time": "5:58"
+          },
+          {
+            "title": "27. Aside: Inline-block",
+            "time": "3:34"
+          },
+          {
+            "title": "28. space out the buttons",
+            "time": "2:34"
+          },
+          {
+            "title": "29. Aside: A main class and a modifier class",
+            "time": "4:05"
+          },
+          {
+            "title": "30. Refactor the buttons",
+            "time": "3:16"
+          },
+          {
+            "title": "31. Aside: Flexbox flex-wrap",
+            "time": "1:18"
+          },
+          {
+            "title": "32. Outro",
+            "time": "1:58"
+          }
+        ]
+      },
+      {
+        "title": "CSS Fundamentals: Challenges",
+        "totalLessons": "22 lessons",
+        "totalTime": "1 hour 6 min",
+        "lessons": [
+          {
+            "title": "1. CSS Fundamentals: Challenges | Introduction",
+            "time": "1:00"
+          },
+          {
+            "title": "2. CSS Fundamentals: Challenge #1 - Setting up the layout",
+            "time": "1:01"
+          },
+          {
+            "title": "3. CSS Fundamentals: Solution #1 - Setting up the layout",
+            "time": "3:17"
+          },
+          {
+            "title": "4. CSS Fundamentals: Challenge #2 - Google fonts",
+            "time": "0:46"
+          },
+          {
+            "title": "5. CSS Fundamentals: Solution #2 - Google fonts",
+            "time": "1:40"
+          },
+          {
+            "title": "6. CSS Fundamentals: Challenge #3 - Setting up the typography",
+            "time": "1:20"
+          },
+          {
+            "title": "7. CSS Fundamentals: Solution #3 - Setting up the typography",
+            "time": "2:59"
+          },
+          {
+            "title": "8. CSS Fundamentals: Challenge #4 - Making things a little more fancy",
+            "time": "2:11"
+          },
+          {
+            "title": "9. CSS Fundamentals: Solution #4 - Making things a little more fancy",
+            "time": "7:43"
+          },
+          {
+            "title": "10. CSS Fundamentals: Challenge #5 - Breathing Room",
+            "time": "1:41"
+          },
+          {
+            "title": "11. CSS Fundamentals: Solution #5 - Breathing Room",
+            "time": "6:34"
+          },
+          {
+            "title": "12. CSS Fundamentals: Challenge #6 - Playing with colors",
+            "time": "1:07"
+          },
+          {
+            "title": "13. CSS Fundamentals: Solution #6 - Playing with colors",
+            "time": "3:05"
+          },
+          {
+            "title": "14. CSS Fundamentals: Challenge #7 - The finer details",
+            "time": "1:21"
+          },
+          {
+            "title": "15. CSS Fundamentals: Solution #7 - The finer details",
+            "time": "5:08"
+          },
+          {
+            "title": "16. CSS Fundamentals: Challenge #8 - Creating buttons",
+            "time": "2:57"
+          },
+          {
+            "title": "17. CSS Fundamentals: Solution #8 - Creating buttons",
+            "time": "5:32"
+          },
+          {
+            "title": "18. CSS Fundamentals: Challenge #9 - Fancier headings",
+            "time": "0:50"
+          },
+          {
+            "title": "19. CSS Fundamentals: Solution #9 - Fancier headings",
+            "time": "5:26"
+          },
+          {
+            "title": "20. CSS Fundamentals: Challenge #10 - Working with what you have",
+            "time": "2:28"
+          },
+          {
+            "title": "21. CSS Fundamentals: Solution #10 - Working with what you have",
+            "time": "5:01"
+          },
+          {
+            "title": "22. Solo Project - Oldagram",
+            "time": "3:39"
+          }
+        ]
+      },
+      {
+        "title": "Build a Coworking Space Site",
+        "totalLessons": "14 lessons",
+        "totalTime": "1 hour 8 min",
+        "lessons": [
+          {
+            "title": "1. Intro",
+            "time": "2:44"
+          },
+          {
+            "title": "2. Build the foundations",
+            "time": "9:43"
+          },
+          {
+            "title": "3. Aside: margin: auto on flexbox children",
+            "time": "9:23"
+          },
+          {
+            "title": "4. Position the menu icon",
+            "time": "2:01"
+          },
+          {
+            "title": "5. Aside: Position: relative & absolute",
+            "time": "7:16"
+          },
+          {
+            "title": "6. Add the image banner",
+            "time": "4:46"
+          },
+          {
+            "title": "7. Add buttons",
+            "time": "6:23"
+          },
+          {
+            "title": "8. Stop the vertical stretch on the button",
+            "time": "3:07"
+          },
+          {
+            "title": "9. Aside: Position Fixed",
+            "time": "5:38"
+          },
+          {
+            "title": "10. Add the chatbox",
+            "time": "5:14"
+          },
+          {
+            "title": "11. Aside: z-index",
+            "time": "6:04"
+          },
+          {
+            "title": "12. z-index challenge ",
+            "time": "2:23"
+          },
+          {
+            "title": "13. Outro",
+            "time": "1:38"
+          },
+          {
+            "title": "14. You've completed Module 4. Well done! 🙌",
+            "time": "1:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Essential JavaScript concepts",
+    "module": "Module 5",
+    "totalLessons": "153 lessons",
+    "totalTime": "10 hours 18 min",
+    "chapters": [
+      {
+        "title": "The World's Most Annoying Cookie Consent",
+        "totalLessons": "32 lessons",
+        "totalTime": "1 hour 51 min",
+        "lessons": [
+          {
+            "title": "1. Module 5 intro",
+            "time": "1:52"
+          },
+          {
+            "title": "2. Cookie Consent Intro",
+            "time": "3:08"
+          },
+          {
+            "title": "3. Position the modal",
+            "time": "2:40"
+          },
+          {
+            "title": "4. Aside: setTimeout",
+            "time": "4:29"
+          },
+          {
+            "title": "5. Set the timer",
+            "time": "1:48"
+          },
+          {
+            "title": "6. Aside: element.style",
+            "time": "6:16"
+          },
+          {
+            "title": "7. Make the modal reappear",
+            "time": "2:11"
+          },
+          {
+            "title": "8. Close the modal",
+            "time": "2:33"
+          },
+          {
+            "title": "9. Aside: Forms",
+            "time": "7:16"
+          },
+          {
+            "title": "10. Add a form 1",
+            "time": "2:29"
+          },
+          {
+            "title": "11. Aside: Forms - submitting",
+            "time": "4:56"
+          },
+          {
+            "title": "12. Aside: Forms - challenge",
+            "time": "2:32"
+          },
+          {
+            "title": "13. Aside: Validation Attributes",
+            "time": "7:42"
+          },
+          {
+            "title": "14. Submit the form",
+            "time": "3:13"
+          },
+          {
+            "title": "15. Aside: preventDefault",
+            "time": "4:15"
+          },
+          {
+            "title": "16. preventDefault Challenge",
+            "time": "3:05"
+          },
+          {
+            "title": "17. Buttons in forms - weird behaviour",
+            "time": "2:33"
+          },
+          {
+            "title": "18. Add modal message",
+            "time": "2:29"
+          },
+          {
+            "title": "19. Add modal messages 2",
+            "time": "5:30"
+          },
+          {
+            "title": "20. Add modal messages 3",
+            "time": "3:25"
+          },
+          {
+            "title": "21. Aside: FormData",
+            "time": "3:34"
+          },
+          {
+            "title": "22. Form Data 1",
+            "time": "2:13"
+          },
+          {
+            "title": "23. Aside: FormData methods",
+            "time": "3:22"
+          },
+          {
+            "title": "24. Form Data 2",
+            "time": "2:38"
+          },
+          {
+            "title": "25. Aside: Disabling elements",
+            "time": "6:05"
+          },
+          {
+            "title": "26. Disable the close button",
+            "time": "3:09"
+          },
+          {
+            "title": "27. There is no choice 1",
+            "time": "3:30"
+          },
+          {
+            "title": "28. Aside: classlist.toggle",
+            "time": "4:00"
+          },
+          {
+            "title": "29. Aside: Classlist Toggle Challenge",
+            "time": "2:30"
+          },
+          {
+            "title": "30. There is no choice 2",
+            "time": "2:55"
+          },
+          {
+            "title": "31. Accessibility Issues",
+            "time": "1:50"
+          },
+          {
+            "title": "32. Recap",
+            "time": "1:30"
+          }
+        ]
+      },
+      {
+        "title": "Pumpkin's Purrfect Meme Picker",
+        "totalLessons": "38 lessons",
+        "totalTime": "2 hours 46 min",
+        "lessons": [
+          {
+            "title": "1. Intro",
+            "time": "3:37"
+          },
+          {
+            "title": "2. What a horrible for loop",
+            "time": "2:57"
+          },
+          {
+            "title": "3. Aside: for of",
+            "time": "4:43"
+          },
+          {
+            "title": "4. Use a for of",
+            "time": "1:42"
+          },
+          {
+            "title": "5. Nest the for of",
+            "time": "4:44"
+          },
+          {
+            "title": "6. Render out the emotions 1",
+            "time": "4:09"
+          },
+          {
+            "title": "7. Render out emotions 2",
+            "time": "5:51"
+          },
+          {
+            "title": "8. Aside: import the data",
+            "time": "5:57"
+          },
+          {
+            "title": "9. Import the data",
+            "time": "2:20"
+          },
+          {
+            "title": "10. Aside: Radio Inputs",
+            "time": "5:39"
+          },
+          {
+            "title": "11. Render the radios inputs",
+            "time": "5:40"
+          },
+          {
+            "title": "12. Aside: .includes()",
+            "time": "5:52"
+          },
+          {
+            "title": "13. remove duplicates",
+            "time": "3:16"
+          },
+          {
+            "title": "14. Aside: e.target",
+            "time": "5:44"
+          },
+          {
+            "title": "15. Get the id of the clicked option",
+            "time": "3:19"
+          },
+          {
+            "title": "16. Aside: parentElement",
+            "time": "3:14"
+          },
+          {
+            "title": "17. Aside: classlist add/remove",
+            "time": "6:47"
+          },
+          {
+            "title": "18. Add colour to the selected emotion",
+            "time": "5:50"
+          },
+          {
+            "title": "19. Aside: getElementsByClassName",
+            "time": "4:58"
+          },
+          {
+            "title": "20. Remove the highlight class",
+            "time": "2:18"
+          },
+          {
+            "title": "21. Aside: querySelector and why it's useful",
+            "time": "4:33"
+          },
+          {
+            "title": "22. Connect the button",
+            "time": "4:46"
+          },
+          {
+            "title": "23. Has an emotion been chosen?",
+            "time": "3:14"
+          },
+          {
+            "title": "24. Aside: checkbox",
+            "time": "5:32"
+          },
+          {
+            "title": "25. isGif",
+            "time": "3:45"
+          },
+          {
+            "title": "26. Aside: filter()",
+            "time": "6:13"
+          },
+          {
+            "title": "27. Aside: filter() 2",
+            "time": "4:51"
+          },
+          {
+            "title": "28. Find matches with .filter()",
+            "time": "4:17"
+          },
+          {
+            "title": "29. Animated GIFs Only",
+            "time": "5:55"
+          },
+          {
+            "title": "30. Introducing two important functions",
+            "time": "4:34"
+          },
+          {
+            "title": "31. If there's only one cat...",
+            "time": "4:26"
+          },
+          {
+            "title": "32. If there's more than one cat...",
+            "time": "4:03"
+          },
+          {
+            "title": "33. renderCat()",
+            "time": "5:17"
+          },
+          {
+            "title": "34. Close the modal",
+            "time": "2:02"
+          },
+          {
+            "title": "35. The order of things",
+            "time": "2:44"
+          },
+          {
+            "title": "36. Aside: Select Element",
+            "time": "6:40"
+          },
+          {
+            "title": "37. Recap",
+            "time": "2:58"
+          },
+          {
+            "title": "38. Get expert feedback on your JavaScript and build exclusive projects",
+            "time": "1:37"
+          }
+        ]
+      },
+      {
+        "title": "Twimba: Twitter Clone",
+        "totalLessons": "36 lessons",
+        "totalTime": "2 hours 29 min",
+        "lessons": [
+          {
+            "title": "1. Intro",
+            "time": "4:44"
+          },
+          {
+            "title": "2. Import the data",
+            "time": "3:36"
+          },
+          {
+            "title": "3. Aside: TextArea",
+            "time": "3:29"
+          },
+          {
+            "title": "4. Add TextArea",
+            "time": "4:04"
+          },
+          {
+            "title": "5. Tweet Boilerplate",
+            "time": "3:22"
+          },
+          {
+            "title": "6. Tweet Boilerplate Challenge",
+            "time": "4:20"
+          },
+          {
+            "title": "7. Aside: forEach()",
+            "time": "5:20"
+          },
+          {
+            "title": "8. Use forEach to build the html",
+            "time": "1:41"
+          },
+          {
+            "title": "9. Render the tweets to the feed",
+            "time": "3:58"
+          },
+          {
+            "title": "10. Aside: CDN Font Awesome",
+            "time": "6:05"
+          },
+          {
+            "title": "11. Add some awesome icons",
+            "time": "4:37"
+          },
+          {
+            "title": "12. Like a tweet part 1: explanation ",
+            "time": "1:58"
+          },
+          {
+            "title": "13. Aside: Data attributes new",
+            "time": "3:30"
+          },
+          {
+            "title": "14. Aside: Data Attr JS and Challenge",
+            "time": "6:07"
+          },
+          {
+            "title": "15. Aside: Data Attribute Naming Issues",
+            "time": "3:10"
+          },
+          {
+            "title": "16. Like a tweet part 2: data attributes",
+            "time": "2:20"
+          },
+          {
+            "title": "17. Like a tweet part 3: eventListener",
+            "time": "5:11"
+          },
+          {
+            "title": "18. Like a tweet part 4: handleLikeClick()",
+            "time": "4:05"
+          },
+          {
+            "title": "19. Like a tweet part 5: find the tweet object ",
+            "time": "6:20"
+          },
+          {
+            "title": "20. Aside: Copying objects and arrays",
+            "time": "3:33"
+          },
+          {
+            "title": "21. Like a tweet part 6: render the increment",
+            "time": "1:05"
+          },
+          {
+            "title": "22. Unlike a tweet",
+            "time": "3:11"
+          },
+          {
+            "title": "23. Flip a boolean",
+            "time": "2:01"
+          },
+          {
+            "title": "24. Retweet a tweet",
+            "time": "8:07"
+          },
+          {
+            "title": "25. Aside: Conditionally render CSS class",
+            "time": "6:53"
+          },
+          {
+            "title": "26. Color the icons",
+            "time": "6:01"
+          },
+          {
+            "title": "27. Replies 1: get uuids of tweets with replies",
+            "time": "2:55"
+          },
+          {
+            "title": "28. Replies 2: HTML string for replies and add to parent div",
+            "time": "5:42"
+          },
+          {
+            "title": "29. Replies 3: toggle hidden",
+            "time": "4:49"
+          },
+          {
+            "title": "30. Refactor the tweet btn",
+            "time": "4:23"
+          },
+          {
+            "title": "31. Aside: UUID",
+            "time": "6:46"
+          },
+          {
+            "title": "32. Build the new Tweet object",
+            "time": "3:46"
+          },
+          {
+            "title": "33. Render a new tweet",
+            "time": "2:21"
+          },
+          {
+            "title": "34. UX fixes",
+            "time": "5:01"
+          },
+          {
+            "title": "35. Recap",
+            "time": "3:21"
+          },
+          {
+            "title": "36. Deploy Twimba",
+            "time": "1:08"
+          }
+        ]
+      },
+      {
+        "title": "Essential JS Mini Projects",
+        "totalLessons": "47 lessons",
+        "totalTime": "3 hours 10 min",
+        "lessons": [
+          {
+            "title": "1. Intro to Mini Projects",
+            "time": "1:14"
+          },
+          {
+            "title": "2. Object Destructuring",
+            "time": "3:12"
+          },
+          {
+            "title": "3. Object Destructuring Challenge",
+            "time": "2:02"
+          },
+          {
+            "title": "4. The .map() Method",
+            "time": "6:37"
+          },
+          {
+            "title": "5. The .map() Method Challenge",
+            "time": "3:59"
+          },
+          {
+            "title": "6. The .join() Method",
+            "time": "2:49"
+          },
+          {
+            "title": "7. The .join() Method Challenge",
+            "time": "2:18"
+          },
+          {
+            "title": "8. .map() vs .forEach()",
+            "time": "4:45"
+          },
+          {
+            "title": "9.  The dangers of innerHTML",
+            "time": "5:26"
+          },
+          {
+            "title": "10. Beyond Function Declarations 1: Function Expressions",
+            "time": "3:18"
+          },
+          {
+            "title": "11. Beyond Function Declarations 2: Function Expression Challenge",
+            "time": "1:52"
+          },
+          {
+            "title": "12. Beyond Function Declarations 3: Arrow Functions",
+            "time": "5:44"
+          },
+          {
+            "title": "13. Arrow Functions Challenge",
+            "time": "4:00"
+          },
+          {
+            "title": "14. Inline Arrow Functions Challenge",
+            "time": "2:24"
+          },
+          {
+            "title": "15. Import Export (named)",
+            "time": "4:21"
+          },
+          {
+            "title": "16. Import Export (default)",
+            "time": "3:57"
+          },
+          {
+            "title": "17. The .reduce() Method",
+            "time": "6:06"
+          },
+          {
+            "title": "18. The .reduce() Method Challenge",
+            "time": "3:36"
+          },
+          {
+            "title": "19. The .reduce() Method with Objects",
+            "time": "7:35"
+          },
+          {
+            "title": "20. The .reduce() Method with Objects Challenge",
+            "time": "3:29"
+          },
+          {
+            "title": "21. Default Parameters",
+            "time": "2:56"
+          },
+          {
+            "title": "22. Super Challenge Set-up",
+            "time": "3:21"
+          },
+          {
+            "title": "23. Super Challenge Solution",
+            "time": "8:49"
+          },
+          {
+            "title": "24. The Ternary Operator ",
+            "time": "4:01"
+          },
+          {
+            "title": "25. The Ternary Operator for Complex Conditionals",
+            "time": "3:05"
+          },
+          {
+            "title": "26. Ternary Operator Challenge ",
+            "time": "3:47"
+          },
+          {
+            "title": "27. Twimba Ternary Refactor",
+            "time": "4:50"
+          },
+          {
+            "title": "28. The Rest Parameter",
+            "time": "5:23"
+          },
+          {
+            "title": "29. The Rest Parameter Challenge",
+            "time": "6:42"
+          },
+          {
+            "title": "30. Spread Syntax (...)",
+            "time": "4:11"
+          },
+          {
+            "title": "31. Spread Syntax (...) Challenge",
+            "time": "5:16"
+          },
+          {
+            "title": "32. Short-circuiting with OR (||)",
+            "time": "5:02"
+          },
+          {
+            "title": "33. Short-circuiting with OR (||) Challenge",
+            "time": "2:14"
+          },
+          {
+            "title": "34. Short-circuiting with AND (&&)",
+            "time": "2:47"
+          },
+          {
+            "title": "35. Short-circuiting with AND (&&) Challenge",
+            "time": "4:01"
+          },
+          {
+            "title": "36. Switch Statements",
+            "time": "5:30"
+          },
+          {
+            "title": "37. Constructors: Date()",
+            "time": "5:27"
+          },
+          {
+            "title": "38. The Error() Constructor",
+            "time": "3:22"
+          },
+          {
+            "title": "39. Objects with Methods and 'this'",
+            "time": "5:14"
+          },
+          {
+            "title": "40. Objects to Constructor Functions",
+            "time": "4:36"
+          },
+          {
+            "title": "41. Constructor Function Challenge",
+            "time": "5:17"
+          },
+          {
+            "title": "42. Constructor Functions to Classes",
+            "time": "5:28"
+          },
+          {
+            "title": "43. Constructor Functions to Classes Challenge",
+            "time": "2:07"
+          },
+          {
+            "title": "44. Recap",
+            "time": "2:08"
+          },
+          {
+            "title": "45. Solo Project - Restaurant Ordering app",
+            "time": "4:02"
+          },
+          {
+            "title": "46. Deploy your Solo Project",
+            "time": "0:44"
+          },
+          {
+            "title": "47. Congratulations on completing module 5! 😃",
+            "time": "1:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Responsive design",
+    "module": "Module 6",
+    "totalLessons": "78 lessons",
+    "totalTime": "4 hours 53 min",
+    "chapters": [
+      {
+        "title": "Build a Responsive Site",
+        "totalLessons": "33 lessons",
+        "totalTime": "1 hour 58 min",
+        "lessons": [
+          {
+            "title": "1. Module intro",
+            "time": "1:50"
+          },
+          {
+            "title": "2. Responsive site intro",
+            "time": "2:03"
+          },
+          {
+            "title": "3. Thinking responsively",
+            "time": "2:33"
+          },
+          {
+            "title": "4. Aside: Relative units and percentages",
+            "time": "5:21"
+          },
+          {
+            "title": "5. Create flexible containers with percentage units",
+            "time": "2:23"
+          },
+          {
+            "title": "6. Controlling the width of images",
+            "time": "2:45"
+          },
+          {
+            "title": "7. Set width constraints with max-width",
+            "time": "5:01"
+          },
+          {
+            "title": "8. Aside: The em unit",
+            "time": "7:35"
+          },
+          {
+            "title": "9. Set font sizes with em",
+            "time": "3:27"
+          },
+          {
+            "title": "10. Aside: Margin and padding with em",
+            "time": "6:41"
+          },
+          {
+            "title": "11. Set margin and padding with em",
+            "time": "5:27"
+          },
+          {
+            "title": "12. Aside: The compounding issue with em",
+            "time": "4:37"
+          },
+          {
+            "title": "13. Aside: The rem unit",
+            "time": "2:46"
+          },
+          {
+            "title": "14. Change font sizes to rem",
+            "time": "3:14"
+          },
+          {
+            "title": "15. Text line height",
+            "time": "3:11"
+          },
+          {
+            "title": "16. How do you decide which unit to use?",
+            "time": "1:45"
+          },
+          {
+            "title": "17. Aside: Media queries",
+            "time": "7:08"
+          },
+          {
+            "title": "18. Add media queries to your site",
+            "time": "5:48"
+          },
+          {
+            "title": "19. Think “mobile-first”",
+            "time": "2:26"
+          },
+          {
+            "title": "20. Mobile-first in action",
+            "time": "1:34"
+          },
+          {
+            "title": "21. Common Breakpoints",
+            "time": "2:14"
+          },
+          {
+            "title": "22. Add a new breakpoint",
+            "time": "3:20"
+          },
+          {
+            "title": "23. Adapt the buttons for smaller screens",
+            "time": "2:45"
+          },
+          {
+            "title": "24. Adjust font size for smaller screens",
+            "time": "4:26"
+          },
+          {
+            "title": "25. Create a mobile-first navigation",
+            "time": "4:21"
+          },
+          {
+            "title": "26. Challenge: Narrow screens",
+            "time": "3:43"
+          },
+          {
+            "title": "27. Challenge: Wider screens",
+            "time": "1:17"
+          },
+          {
+            "title": "28. Solution: Wider screens",
+            "time": "2:30"
+          },
+          {
+            "title": "29. The viewport meta tag",
+            "time": "3:45"
+          },
+          {
+            "title": "30. Aside: Create a flexbox image grid",
+            "time": "6:18"
+          },
+          {
+            "title": "31. Wrap the featured items with flexbox",
+            "time": "3:37"
+          },
+          {
+            "title": "32. Recap",
+            "time": "1:23"
+          },
+          {
+            "title": "33. Deploy your site to Netlify",
+            "time": "1:06"
+          }
+        ]
+      },
+      {
+        "title": "Build a Product Splash Page",
+        "totalLessons": "22 lessons",
+        "totalTime": "1 hour 11 min",
+        "lessons": [
+          {
+            "title": "1. Product splash page intro",
+            "time": "1:17"
+          },
+          {
+            "title": "2. Style the intro container",
+            "time": "3:34"
+          },
+          {
+            "title": "3. Style main content",
+            "time": "4:36"
+          },
+          {
+            "title": "4. Style the text",
+            "time": "6:01"
+          },
+          {
+            "title": "5. Aside: Transform text",
+            "time": "1:24"
+          },
+          {
+            "title": "6. Uppercase text",
+            "time": "1:11"
+          },
+          {
+            "title": "7. Add a breakpoint for wider screens",
+            "time": "4:01"
+          },
+          {
+            "title": "8. Aside: Viewport units",
+            "time": "3:34"
+          },
+          {
+            "title": "9. Viewport sized intro container",
+            "time": "2:57"
+          },
+          {
+            "title": "10. Adjust content for wider screens",
+            "time": "3:32"
+          },
+          {
+            "title": "11. Apply a full background image",
+            "time": "2:31"
+          },
+          {
+            "title": "12. Style the form inputs",
+            "time": "3:40"
+          },
+          {
+            "title": "13. Style the focus state",
+            "time": "3:10"
+          },
+          {
+            "title": "14. Style the submit button",
+            "time": "5:59"
+          },
+          {
+            "title": "15. Button modifiers",
+            "time": "2:33"
+          },
+          {
+            "title": "16. Aside: Reordering flex items",
+            "time": "3:55"
+          },
+          {
+            "title": "17. Adjust visual order of the intro text",
+            "time": "5:21"
+          },
+          {
+            "title": "18. Adjust line length",
+            "time": "1:32"
+          },
+          {
+            "title": "19. Aside: Control the size of elements with box-sizing",
+            "time": "5:38"
+          },
+          {
+            "title": "20. Apply box-sizing to the page",
+            "time": "3:37"
+          },
+          {
+            "title": "21. Product splash page recap",
+            "time": "0:53"
+          },
+          {
+            "title": "22. Deploy your splash page to Netlify",
+            "time": "0:45"
+          }
+        ]
+      },
+      {
+        "title": "CSS Grid: The ultimate layout tool",
+        "totalLessons": "19 lessons",
+        "totalTime": "1 hour 37 min",
+        "lessons": [
+          {
+            "title": "1. Introduction to CSS Grid",
+            "time": "3:16"
+          },
+          {
+            "title": "2. Setting up a basic grid",
+            "time": "5:21"
+          },
+          {
+            "title": "3. Placing items on the grid",
+            "time": "4:03"
+          },
+          {
+            "title": "4. grid-row and grid-column shorthands",
+            "time": "5:13"
+          },
+          {
+            "title": "5. Spanning columns",
+            "time": "1:42"
+          },
+          {
+            "title": "6. Some similarities to flexbox",
+            "time": "5:28"
+          },
+          {
+            "title": "7. Using grid for our card component",
+            "time": "13:13"
+          },
+          {
+            "title": "8. The grid-gap property",
+            "time": "2:32"
+          },
+          {
+            "title": "9. Adding the gap to our card",
+            "time": "2:52"
+          },
+          {
+            "title": "10. The implicit and explicit grid",
+            "time": "6:00"
+          },
+          {
+            "title": "11. Exploring grid areas",
+            "time": "8:11"
+          },
+          {
+            "title": "12. grid-areas and media queries",
+            "time": "6:18"
+          },
+          {
+            "title": "13. minmax()",
+            "time": "3:35"
+          },
+          {
+            "title": "14. the fr unit",
+            "time": "3:01"
+          },
+          {
+            "title": "15. minmax() and the fr unit",
+            "time": "2:27"
+          },
+          {
+            "title": "16. Putting grid to use - part 1",
+            "time": "11:32"
+          },
+          {
+            "title": "17. Putting grid to use - part 2",
+            "time": "3:30"
+          },
+          {
+            "title": "18. repeat()",
+            "time": "3:22"
+          },
+          {
+            "title": "19. auto-fit and auto-fill",
+            "time": "5:14"
+          }
+        ]
+      },
+      {
+        "title": "Solo Project: Learning Journal",
+        "totalLessons": "4 lessons",
+        "totalTime": "6 min",
+        "lessons": [
+          {
+            "title": "1. Solo Project - Learning Journal",
+            "time": "3:12"
+          },
+          {
+            "title": "2. Access exclusive responsive design Solo Projects",
+            "time": "1:32"
+          },
+          {
+            "title": "3. Deploy your learning journal project",
+            "time": "0:52"
+          },
+          {
+            "title": "4. You've completed module 6! 🥳",
+            "time": "0:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Code reviews",
+    "module": "Module 7",
+    "totalLessons": "15 lessons",
+    "totalTime": "47 min",
+    "chapters": [
+      {
+        "title": "Code reviews",
+        "totalLessons": "9 lessons",
+        "totalTime": "29 min",
+        "lessons": [
+          {
+            "title": "1. Why code reviews matter",
+            "time": "3:18"
+          },
+          {
+            "title": "2. The most common type of code review: GitHub PRs",
+            "time": "2:49"
+          },
+          {
+            "title": "3. What to look for in a code review",
+            "time": "5:35"
+          },
+          {
+            "title": "4. Your first textual code review",
+            "time": "6:48"
+          },
+          {
+            "title": "5. Scrim-based code reviews",
+            "time": "2:02"
+          },
+          {
+            "title": "6. Solo Project code review – password generator",
+            "time": "4:15"
+          },
+          {
+            "title": "7. Your first scrim-based code review",
+            "time": "1:58"
+          },
+          {
+            "title": "8. Share your scrim-based code review solution",
+            "time": "0:36"
+          },
+          {
+            "title": "9. Find a real Solo Project to review",
+            "time": "1:51"
+          }
+        ]
+      },
+      {
+        "title": "Branching and Pull Requests with GitHub Desktop",
+        "totalLessons": "6 lessons",
+        "totalTime": "18 min",
+        "lessons": [
+          {
+            "title": "1. Introduction to Branching and Pull Requests",
+            "time": "2:12"
+          },
+          {
+            "title": "2. Make an Issue in GitHub",
+            "time": "1:59"
+          },
+          {
+            "title": "3. Creating a Branch",
+            "time": "3:14"
+          },
+          {
+            "title": "4. Creating a Pull Request",
+            "time": "3:27"
+          },
+          {
+            "title": "5. Resolving Merge Conflicts",
+            "time": "3:53"
+          },
+          {
+            "title": "6. Pulling",
+            "time": "3:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Working with APIs",
+    "module": "Module 8",
+    "totalLessons": "97 lessons",
+    "totalTime": "7 hours 22 min",
+    "chapters": [
+      {
+        "title": "Intro to APIs & BoredBot",
+        "totalLessons": "17 lessons",
+        "totalTime": "1 hour 4 min",
+        "lessons": [
+          {
+            "title": "1. APIs Module Intro",
+            "time": "4:56"
+          },
+          {
+            "title": "2. What is an API?",
+            "time": "8:01"
+          },
+          {
+            "title": "3. Clients & Servers",
+            "time": "3:29"
+          },
+          {
+            "title": "4. Requests & Responses",
+            "time": "5:32"
+          },
+          {
+            "title": "5. BoredBot Intro",
+            "time": "1:15"
+          },
+          {
+            "title": "6. JSON Review",
+            "time": "5:14"
+          },
+          {
+            "title": "7. First fetch",
+            "time": "2:51"
+          },
+          {
+            "title": "8. .then() and Asynchronous JavaScript",
+            "time": "2:19"
+          },
+          {
+            "title": "9. Dog API Fetch and DOM Practice",
+            "time": "2:51"
+          },
+          {
+            "title": "10. Fetch idea from Bored API",
+            "time": "2:54"
+          },
+          {
+            "title": "11. Aside - apis.scrimba.com?",
+            "time": "1:51"
+          },
+          {
+            "title": "12. BoredBot - HTML",
+            "time": "1:34"
+          },
+          {
+            "title": "13. BoredBot - CSS",
+            "time": "4:51"
+          },
+          {
+            "title": "14. BoredBot - JavaScript",
+            "time": "6:44"
+          },
+          {
+            "title": "15. BoredBot - Extra Styling",
+            "time": "4:18"
+          },
+          {
+            "title": "16. BoredBot - Improve A11y",
+            "time": "4:11"
+          },
+          {
+            "title": "17. Section Recap",
+            "time": "1:29"
+          }
+        ]
+      },
+      {
+        "title": "URLs, REST, & BlogSpace",
+        "totalLessons": "24 lessons",
+        "totalTime": "1 hour 58 min",
+        "lessons": [
+          {
+            "title": "1. Section Intro",
+            "time": "1:29"
+          },
+          {
+            "title": "2. HTTP Requests",
+            "time": "9:56"
+          },
+          {
+            "title": "3. Requests - URLs and Endpoints",
+            "time": "7:00"
+          },
+          {
+            "title": "4. Requests - Methods",
+            "time": "7:40"
+          },
+          {
+            "title": "5. BlogSpace - GET first 5 blog posts",
+            "time": "3:30"
+          },
+          {
+            "title": "6. BlogSpace - Display blogs on page",
+            "time": "4:06"
+          },
+          {
+            "title": "7. BlogSpace - Add styling",
+            "time": "6:35"
+          },
+          {
+            "title": "8. BlogSpace - New post form",
+            "time": "3:38"
+          },
+          {
+            "title": "9. BlogSpace - Add style to form",
+            "time": "3:02"
+          },
+          {
+            "title": "10. BlogSpace - Form submit event listener",
+            "time": "3:37"
+          },
+          {
+            "title": "11. Requests - Body",
+            "time": "5:42"
+          },
+          {
+            "title": "12. Requests - Headers",
+            "time": "4:32"
+          },
+          {
+            "title": "13. BlogSpace - Send new post to server",
+            "time": "3:08"
+          },
+          {
+            "title": "14. BlogSpace - Add new post to list of posts",
+            "time": "4:20"
+          },
+          {
+            "title": "15. BlogSpace - Posts Refactor",
+            "time": "5:42"
+          },
+          {
+            "title": "16. BlogSpace - Reset form",
+            "time": "4:42"
+          },
+          {
+            "title": "17. REST",
+            "time": "5:41"
+          },
+          {
+            "title": "18. REST API Design",
+            "time": "9:59"
+          },
+          {
+            "title": "19. Nested Resources",
+            "time": "4:54"
+          },
+          {
+            "title": "20. URL Parameters - JSON Placeholder API",
+            "time": "3:06"
+          },
+          {
+            "title": "21. Query Strings",
+            "time": "5:58"
+          },
+          {
+            "title": "22. Query String Practice - OpenWeatherMap API",
+            "time": "4:35"
+          },
+          {
+            "title": "23. Solo Project - Color Scheme Generator",
+            "time": "3:08"
+          },
+          {
+            "title": "24. Section Recap",
+            "time": "2:38"
+          }
+        ]
+      },
+      {
+        "title": "Async JavaScript & War",
+        "totalLessons": "31 lessons",
+        "totalTime": "2 hours 27 min",
+        "lessons": [
+          {
+            "title": "1. Async JS Intro & War Project",
+            "time": "6:36"
+          },
+          {
+            "title": "2. Callbacks Setup Challenge",
+            "time": "2:28"
+          },
+          {
+            "title": "3. Callback functions intro",
+            "time": "3:38"
+          },
+          {
+            "title": "4. Separate event listener callback",
+            "time": "2:53"
+          },
+          {
+            "title": "5. Callbacks - revisiting setTimeout",
+            "time": "4:10"
+          },
+          {
+            "title": "6. Callbacks - revisiting array.filter",
+            "time": "7:42"
+          },
+          {
+            "title": "7. Callbacks - make own filterArray function",
+            "time": "6:06"
+          },
+          {
+            "title": "8. Callbacks - put our custom filterArray function to use",
+            "time": "4:17"
+          },
+          {
+            "title": "9. Thought experiment: what if `fetch` used callbacks?",
+            "time": "2:20"
+          },
+          {
+            "title": "10. Promises",
+            "time": "5:07"
+          },
+          {
+            "title": "11. Context: method chaining",
+            "time": "7:07"
+          },
+          {
+            "title": "12. Promises - .then() chaining",
+            "time": "3:25"
+          },
+          {
+            "title": "13. Promises - .then()",
+            "time": "2:11"
+          },
+          {
+            "title": "14. Promises - passing basic values in the chain",
+            "time": "5:18"
+          },
+          {
+            "title": "15. War - save deckId for later use",
+            "time": "1:45"
+          },
+          {
+            "title": "16. War - draw 2 cards from our deck",
+            "time": "6:19"
+          },
+          {
+            "title": "17. War - Display our card images",
+            "time": "3:59"
+          },
+          {
+            "title": "18. War - Styling part 1",
+            "time": "8:09"
+          },
+          {
+            "title": "19. War - Styling part 2",
+            "time": "6:46"
+          },
+          {
+            "title": "20. War - Refactor card image placement",
+            "time": "5:48"
+          },
+          {
+            "title": "21. War - Determine the winning card part 1",
+            "time": "8:32"
+          },
+          {
+            "title": "22. War - Determine winning card part 2",
+            "time": "5:48"
+          },
+          {
+            "title": "23. War - display remaining cards when drawing",
+            "time": "6:51"
+          },
+          {
+            "title": "24. War - Display remaining cards on new deck",
+            "time": "1:47"
+          },
+          {
+            "title": "25. War - Disable the draw button when we get to 0 cards remaining",
+            "time": "3:45"
+          },
+          {
+            "title": "26. War - Keep score",
+            "time": "4:44"
+          },
+          {
+            "title": "27. War - Display the final winner",
+            "time": "4:50"
+          },
+          {
+            "title": "28. Sneak peek at ES8's Async/Await",
+            "time": "6:47"
+          },
+          {
+            "title": "29. Solo Project - Movie Watchlist",
+            "time": "3:08"
+          },
+          {
+            "title": "30. Unlock exclusive API projects and code reviews",
+            "time": "1:36"
+          },
+          {
+            "title": "31. Section Recap",
+            "time": "3:40"
+          }
+        ]
+      },
+      {
+        "title": "Promise Rejection & Capstone",
+        "totalLessons": "25 lessons",
+        "totalTime": "1 hour 51 min",
+        "lessons": [
+          {
+            "title": "1. Section Intro",
+            "time": "1:45"
+          },
+          {
+            "title": "2. Dashboard wireframe",
+            "time": "2:15"
+          },
+          {
+            "title": "3. Get photo from Unsplash",
+            "time": "4:13"
+          },
+          {
+            "title": "4. Add Author Info",
+            "time": "3:46"
+          },
+          {
+            "title": "5. Choosing a layout method",
+            "time": "2:46"
+          },
+          {
+            "title": "6. Set up flexbox",
+            "time": "5:35"
+          },
+          {
+            "title": "7. Promises review",
+            "time": "4:59"
+          },
+          {
+            "title": "8. Promise rejection",
+            "time": "6:13"
+          },
+          {
+            "title": "9. Promise rejection practice",
+            "time": "3:32"
+          },
+          {
+            "title": "10. Crypto - Add cryptocurrency data",
+            "time": "3:36"
+          },
+          {
+            "title": "11. Crypto - Get Dogecoin data",
+            "time": "2:10"
+          },
+          {
+            "title": "12. Check for error responses",
+            "time": "7:00"
+          },
+          {
+            "title": "13. Crypto - Display name and icon",
+            "time": "4:37"
+          },
+          {
+            "title": "14. Crypto - get prices",
+            "time": "4:22"
+          },
+          {
+            "title": "15. Time - Add current time with JavaScript",
+            "time": "7:44"
+          },
+          {
+            "title": "16. Time - Display time on page",
+            "time": "3:50"
+          },
+          {
+            "title": "17. Weather - start",
+            "time": "6:16"
+          },
+          {
+            "title": "18. Thought experiment - getCurrentLocation as a promise-based API?",
+            "time": "2:40"
+          },
+          {
+            "title": "19. Weather - Get user's current weather",
+            "time": "4:46"
+          },
+          {
+            "title": "20. Weather - Add icon",
+            "time": "4:24"
+          },
+          {
+            "title": "21. Weather - Add temp and city",
+            "time": "2:52"
+          },
+          {
+            "title": "22. Weather - CSS",
+            "time": "8:07"
+          },
+          {
+            "title": "23. Chrome extension time!",
+            "time": "8:10"
+          },
+          {
+            "title": "24. Quick update - Modern CSS",
+            "time": "1:33"
+          },
+          {
+            "title": "25. Module Outro",
+            "time": "4:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Learn UI design",
+    "module": "Module 9",
+    "totalLessons": "29 lessons",
+    "totalTime": "2 hours 27 min",
+    "chapters": [
+      {
+        "title": "Intro to UI design",
+        "totalLessons": "15 lessons",
+        "totalTime": "1 hour 7 min",
+        "lessons": [
+          {
+            "title": "1. Welcome to Learn UI Design",
+            "time": "1:38"
+          },
+          {
+            "title": "2. Course Introduction",
+            "time": "1:06"
+          },
+          {
+            "title": "3. White Space",
+            "time": "4:45"
+          },
+          {
+            "title": "4. Alignment",
+            "time": "3:06"
+          },
+          {
+            "title": "5. Design Challenge: 1",
+            "time": "4:20"
+          },
+          {
+            "title": "6. Contrast",
+            "time": "4:26"
+          },
+          {
+            "title": "7. Scale",
+            "time": "4:29"
+          },
+          {
+            "title": "8. Design Challenge: 2",
+            "time": "7:14"
+          },
+          {
+            "title": "9. Typography",
+            "time": "6:12"
+          },
+          {
+            "title": "10. Color",
+            "time": "5:41"
+          },
+          {
+            "title": "11. Design Challenge: 3",
+            "time": "4:07"
+          },
+          {
+            "title": "12. Visual Hierarchy",
+            "time": "7:42"
+          },
+          {
+            "title": "13. Design Challenge: 4",
+            "time": "6:22"
+          },
+          {
+            "title": "14. The Final Challenge",
+            "time": "5:29"
+          },
+          {
+            "title": "15. Closing Thoughts",
+            "time": "0:59"
+          }
+        ]
+      },
+      {
+        "title": "Build A Simple Layout",
+        "totalLessons": "7 lessons",
+        "totalTime": "37 min",
+        "lessons": [
+          {
+            "title": "1. Building a simple layout - intro",
+            "time": "1:19"
+          },
+          {
+            "title": "2. Keeping it Ultra Simple",
+            "time": "5:40"
+          },
+          {
+            "title": "3. Making our Layout Dark",
+            "time": "5:48"
+          },
+          {
+            "title": "4. Challenge 1",
+            "time": "6:36"
+          },
+          {
+            "title": "5. Multi-Columns",
+            "time": "4:35"
+          },
+          {
+            "title": "6. Working with Photographs",
+            "time": "5:32"
+          },
+          {
+            "title": "7. Final Chapter Lesson",
+            "time": "7:54"
+          }
+        ]
+      },
+      {
+        "title": "Full Project Refactoring",
+        "totalLessons": "7 lessons",
+        "totalTime": "42 min",
+        "lessons": [
+          {
+            "title": "1. Project Refactoring: Introduction & Defining the HTML",
+            "time": "6:07"
+          },
+          {
+            "title": "2. Fixing the Color & Contrast",
+            "time": "3:57"
+          },
+          {
+            "title": "3. Fixing the Type & Visual Hierarchy",
+            "time": "6:56"
+          },
+          {
+            "title": "4. Fixing White Space",
+            "time": "5:32"
+          },
+          {
+            "title": "5. Initial Media Queries",
+            "time": "6:14"
+          },
+          {
+            "title": "6. Tablet Media Queries",
+            "time": "4:55"
+          },
+          {
+            "title": "7. Desktop Media Query",
+            "time": "8:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "React basics",
+    "module": "Module 10",
+    "totalLessons": "174 lessons",
+    "totalTime": "13 hours 32 min",
+    "chapters": [
+      {
+        "title": "Build a React info site",
+        "totalLessons": "33 lessons",
+        "totalTime": "2 hours 47 min",
+        "lessons": [
+          {
+            "title": "1. Introduction to React",
+            "time": "7:46"
+          },
+          {
+            "title": "2. What we'll learn",
+            "time": "3:38"
+          },
+          {
+            "title": "3. First React",
+            "time": "8:02"
+          },
+          {
+            "title": "4. First React Practice",
+            "time": "1:48"
+          },
+          {
+            "title": "5. Local setup (the quick way)",
+            "time": "1:57"
+          },
+          {
+            "title": "6. Libraries/Frameworks",
+            "time": "7:11"
+          },
+          {
+            "title": "7. Why React? It's Composable!",
+            "time": "4:47"
+          },
+          {
+            "title": "8. Why React? It's declarative",
+            "time": "4:42"
+          },
+          {
+            "title": "9. JSX",
+            "time": "9:39"
+          },
+          {
+            "title": "10. Drag and Drop Deploy with Netlify",
+            "time": "2:34"
+          },
+          {
+            "title": "11. Get detailed reviews of your React projects – Scrimba Bootcamp",
+            "time": "1:53"
+          },
+          {
+            "title": "12. Goodbye, CDNs!",
+            "time": "4:05"
+          },
+          {
+            "title": "13. UPDATE: New React 18 createRoot API",
+            "time": "4:18"
+          },
+          {
+            "title": "14. Thought experiment: use .append() instead of ReactDOM.render()?",
+            "time": "5:28"
+          },
+          {
+            "title": "15. Project part 1 - markup (Update)",
+            "time": "5:33"
+          },
+          {
+            "title": "16. Pop quiz!",
+            "time": "5:08"
+          },
+          {
+            "title": "17. Custom Components",
+            "time": "6:55"
+          },
+          {
+            "title": "18. Custom Components part 2",
+            "time": "3:57"
+          },
+          {
+            "title": "19. Custom Components Quiz",
+            "time": "2:47"
+          },
+          {
+            "title": "20. Parent/Child Components",
+            "time": "4:54"
+          },
+          {
+            "title": "21. Styling with Classes",
+            "time": "6:43"
+          },
+          {
+            "title": "22. Organize components",
+            "time": "7:41"
+          },
+          {
+            "title": "23. Run React locally with Vite",
+            "time": "9:30"
+          },
+          {
+            "title": "24. Quick mental outline of project",
+            "time": "3:54"
+          },
+          {
+            "title": "25. Project setup",
+            "time": "7:13"
+          },
+          {
+            "title": "26. Quick Figma Walkthrough",
+            "time": "1:40"
+          },
+          {
+            "title": "27. Navbar & Styling",
+            "time": "7:16"
+          },
+          {
+            "title": "28. Main Section",
+            "time": "7:44"
+          },
+          {
+            "title": "29. Color the bullets",
+            "time": "2:23"
+          },
+          {
+            "title": "30. Add background logo",
+            "time": "4:17"
+          },
+          {
+            "title": "31. Solo Project (PRO) - Digital Business Card",
+            "time": "3:52"
+          },
+          {
+            "title": "32. Deploy Your React App with Netlify",
+            "time": "5:23"
+          },
+          {
+            "title": "33. React Section 1 Recap",
+            "time": "2:37"
+          }
+        ]
+      },
+      {
+        "title": "Build an AirBnb Experiences clone",
+        "totalLessons": "28 lessons",
+        "totalTime": "2 hours 15 min",
+        "lessons": [
+          {
+            "title": "1. Section intro & Figma file",
+            "time": "4:11"
+          },
+          {
+            "title": "2. Project setup: Navbar",
+            "time": "5:40"
+          },
+          {
+            "title": "3. Project setup: Hero",
+            "time": "5:46"
+          },
+          {
+            "title": "4. Project: Card Component",
+            "time": "7:18"
+          },
+          {
+            "title": "5. Update: A11Y Audit",
+            "time": "3:39"
+          },
+          {
+            "title": "6. Problem - not reusable",
+            "time": "1:55"
+          },
+          {
+            "title": "7. Props Part 1: Understanding the Concept",
+            "time": "3:17"
+          },
+          {
+            "title": "8. Props Part 2: Reusable Components",
+            "time": "1:56"
+          },
+          {
+            "title": "9. Aside: JS inside JSX",
+            "time": "6:50"
+          },
+          {
+            "title": "10. Props part 3: Create a contact component",
+            "time": "8:28"
+          },
+          {
+            "title": "11. Props part 4: receiving props in a component",
+            "time": "5:28"
+          },
+          {
+            "title": "12. Prop quiz! (Get it?? 😆)",
+            "time": "4:25"
+          },
+          {
+            "title": "13. Destructuring props",
+            "time": "3:53"
+          },
+          {
+            "title": "14. Props practice",
+            "time": "9:03"
+          },
+          {
+            "title": "15. Passing in non-string props",
+            "time": "3:57"
+          },
+          {
+            "title": "16. Project: pass props to card component",
+            "time": "6:55"
+          },
+          {
+            "title": "17. Review - array .map()",
+            "time": "7:27"
+          },
+          {
+            "title": "18. React renders arrays",
+            "time": "4:29"
+          },
+          {
+            "title": "19. Mapping components",
+            "time": "4:32"
+          },
+          {
+            "title": "20. Map quiz!",
+            "time": "3:38"
+          },
+          {
+            "title": "21. Loading images from .map()",
+            "time": "1:34"
+          },
+          {
+            "title": "22. Project: Map experiences data into components",
+            "time": "5:20"
+          },
+          {
+            "title": "23. Project: key prop",
+            "time": "3:29"
+          },
+          {
+            "title": "24. Project: Sold Out Badge",
+            "time": "9:06"
+          },
+          {
+            "title": "25. Project: Pass object as props",
+            "time": "4:25"
+          },
+          {
+            "title": "26. Project: Spread object as props",
+            "time": "3:54"
+          },
+          {
+            "title": "27. Solo Project (PRO) - Travel Journal",
+            "time": "3:22"
+          },
+          {
+            "title": "28. React Section 2 Recap",
+            "time": "1:42"
+          }
+        ]
+      },
+      {
+        "title": "Build a meme generator",
+        "totalLessons": "69 lessons",
+        "totalTime": "5 hours 24 min",
+        "lessons": [
+          {
+            "title": "1. Section Intro & Figma file",
+            "time": "4:17"
+          },
+          {
+            "title": "2. Meme Generator: Header",
+            "time": "5:08"
+          },
+          {
+            "title": "3. Meme Generator: Form",
+            "time": "6:01"
+          },
+          {
+            "title": "4. Update: Accessibility Audit",
+            "time": "1:21"
+          },
+          {
+            "title": "5. Project analysis",
+            "time": "1:04"
+          },
+          {
+            "title": "6. Event Listeners",
+            "time": "6:07"
+          },
+          {
+            "title": "7. Project: Get random meme",
+            "time": "5:42"
+          },
+          {
+            "title": "8. Our current conundrum",
+            "time": "8:09"
+          },
+          {
+            "title": "9. Props vs. State: Props",
+            "time": "5:08"
+          },
+          {
+            "title": "10. Props vs. State: State",
+            "time": "4:28"
+          },
+          {
+            "title": "11. Props vs. State Quiz!",
+            "time": "4:03"
+          },
+          {
+            "title": "12. useState",
+            "time": "3:52"
+          },
+          {
+            "title": "13. useState array destructuring",
+            "time": "1:46"
+          },
+          {
+            "title": "14. Changing state",
+            "time": "3:03"
+          },
+          {
+            "title": "15. useState - Counter practice",
+            "time": "5:45"
+          },
+          {
+            "title": "16. useState - Changing state with a callback function",
+            "time": "4:18"
+          },
+          {
+            "title": "17. Changing state quiz!",
+            "time": "2:30"
+          },
+          {
+            "title": "18. Project: Add images to the meme generator",
+            "time": "2:56"
+          },
+          {
+            "title": "19. Challenge: ternary practice",
+            "time": "3:50"
+          },
+          {
+            "title": "20. Challenge: flipping state back and forth",
+            "time": "5:59"
+          },
+          {
+            "title": "21. A11y Update - replace div with button",
+            "time": "3:19"
+          },
+          {
+            "title": "22. Complex state: arrays",
+            "time": "10:28"
+          },
+          {
+            "title": "23. Complex state: objects",
+            "time": "3:58"
+          },
+          {
+            "title": "24. Complex state: updating state objects",
+            "time": "6:35"
+          },
+          {
+            "title": "25. Project: Refactor state",
+            "time": "4:10"
+          },
+          {
+            "title": "26. Passing state as props",
+            "time": "5:52"
+          },
+          {
+            "title": "27. Setting state from child components",
+            "time": "6:28"
+          },
+          {
+            "title": "28. Update: addressing a11y issues",
+            "time": "5:11"
+          },
+          {
+            "title": "29. Passing data around",
+            "time": "6:26"
+          },
+          {
+            "title": "30. Boxes challenge part 1",
+            "time": "3:49"
+          },
+          {
+            "title": "31. Dynamic styles",
+            "time": "5:42"
+          },
+          {
+            "title": "32. Boxes challenge part 2",
+            "time": "3:37"
+          },
+          {
+            "title": "33. Boxes challenge part 3.1 - local state",
+            "time": "4:54"
+          },
+          {
+            "title": "34. Boxes challenge part 3.2 - unified state",
+            "time": "7:45"
+          },
+          {
+            "title": "35. Boxes challenge part 4",
+            "time": "5:50"
+          },
+          {
+            "title": "36. Boxes challenge part 5",
+            "time": "5:57"
+          },
+          {
+            "title": "37. Boxes update: a11y fixes",
+            "time": "1:09"
+          },
+          {
+            "title": "38. Conditional rendering: &&",
+            "time": "6:36"
+          },
+          {
+            "title": "39. Conditional rendering: && practice",
+            "time": "1:45"
+          },
+          {
+            "title": "40. Conditional rendering: ternary",
+            "time": "2:49"
+          },
+          {
+            "title": "41. Conditional rendering practice",
+            "time": "4:45"
+          },
+          {
+            "title": "42. Conditional rendering quiz!",
+            "time": "3:56"
+          },
+          {
+            "title": "43. React forms intro",
+            "time": "3:25"
+          },
+          {
+            "title": "44. Watch for input changes in React",
+            "time": "4:30"
+          },
+          {
+            "title": "45. Form inputs practice",
+            "time": "2:22"
+          },
+          {
+            "title": "46. Forms state object",
+            "time": "6:09"
+          },
+          {
+            "title": "47. Form state object practice",
+            "time": "1:49"
+          },
+          {
+            "title": "48. Controlled inputs",
+            "time": "4:14"
+          },
+          {
+            "title": "49. Forms in React: Textarea",
+            "time": "3:33"
+          },
+          {
+            "title": "50. Forms in React: Checkbox",
+            "time": "6:39"
+          },
+          {
+            "title": "51. Forms in React: Radio buttons",
+            "time": "6:00"
+          },
+          {
+            "title": "52. Forms in React: Select & Option",
+            "time": "2:49"
+          },
+          {
+            "title": "53. Forms in React: Submitting the form",
+            "time": "4:31"
+          },
+          {
+            "title": "54. Accessible labels - useId",
+            "time": "5:48"
+          },
+          {
+            "title": "55. Forms quiz!",
+            "time": "3:13"
+          },
+          {
+            "title": "56. Sign up form practice",
+            "time": "8:26"
+          },
+          {
+            "title": "57. Project: Add text to image",
+            "time": "3:58"
+          },
+          {
+            "title": "58. Making API calls",
+            "time": "4:00"
+          },
+          {
+            "title": "59. Intro to useEffect",
+            "time": "5:43"
+          },
+          {
+            "title": "60. useEffect() syntax and default behavior",
+            "time": "2:59"
+          },
+          {
+            "title": "61. useEffect dependencies array",
+            "time": "8:01"
+          },
+          {
+            "title": "62. useEffect quiz!",
+            "time": "3:48"
+          },
+          {
+            "title": "63. useEffect for fetching data",
+            "time": "5:48"
+          },
+          {
+            "title": "64. useEffect: when to use dependencies",
+            "time": "3:02"
+          },
+          {
+            "title": "65. Project: Get Memes from API",
+            "time": "8:11"
+          },
+          {
+            "title": "66. State and Effect practices",
+            "time": "7:02"
+          },
+          {
+            "title": "67. useEffect cleanup function",
+            "time": "5:53"
+          },
+          {
+            "title": "68. Using an async function inside useEffect",
+            "time": "3:07"
+          },
+          {
+            "title": "69. React Section 3 Recap",
+            "time": "2:17"
+          }
+        ]
+      },
+      {
+        "title": "Build a notes app and Tenzies games",
+        "totalLessons": "44 lessons",
+        "totalTime": "3 hours 4 min",
+        "lessons": [
+          {
+            "title": "1. Section 4 Intro",
+            "time": "2:33"
+          },
+          {
+            "title": "2. Warm-up: Add Dark/Light modes to ReactFacts site",
+            "time": "6:39"
+          },
+          {
+            "title": "3. Notes App: Intro",
+            "time": "9:55"
+          },
+          {
+            "title": "4. Notes App: Features to add",
+            "time": "1:25"
+          },
+          {
+            "title": "5. Notes App: Sync notes with localStorage",
+            "time": "5:59"
+          },
+          {
+            "title": "6. Lazy State Initialization",
+            "time": "5:12"
+          },
+          {
+            "title": "7. Notes App: Note summary title",
+            "time": "4:51"
+          },
+          {
+            "title": "8. Notes App: Bump recent note to the top",
+            "time": "6:49"
+          },
+          {
+            "title": "9. Notes App: Delete note",
+            "time": "8:57"
+          },
+          {
+            "title": "10. Update to Notes app - adding Firebase! 🔥",
+            "time": "2:17"
+          },
+          {
+            "title": "11. Updating to Vite",
+            "time": "3:53"
+          },
+          {
+            "title": "12. Small refactors",
+            "time": "3:01"
+          },
+          {
+            "title": "13. Local Setup",
+            "time": "2:47"
+          },
+          {
+            "title": "14. Firebase Intro & Setup",
+            "time": "4:28"
+          },
+          {
+            "title": "15. Firebase Code Setup",
+            "time": "3:09"
+          },
+          {
+            "title": "16. onSnapshot - part 1",
+            "time": "6:56"
+          },
+          {
+            "title": "17. onSnapshot - part 2",
+            "time": "3:03"
+          },
+          {
+            "title": "18. Create new blank note",
+            "time": "2:10"
+          },
+          {
+            "title": "19. Delete Note",
+            "time": "2:54"
+          },
+          {
+            "title": "20. Update note - part 1",
+            "time": "2:26"
+          },
+          {
+            "title": "21. Update note - part 2",
+            "time": "3:53"
+          },
+          {
+            "title": "22. Challenge: createdAt and updatedAt",
+            "time": "2:54"
+          },
+          {
+            "title": "23. Challenge: sort notes",
+            "time": "3:58"
+          },
+          {
+            "title": "24. Debouncing updates - part 1",
+            "time": "3:21"
+          },
+          {
+            "title": "25. Debouncing updates - part 2",
+            "time": "4:44"
+          },
+          {
+            "title": "26. Debouncing updates - part 3",
+            "time": "8:07"
+          },
+          {
+            "title": "27. Tenzies Project Intro",
+            "time": "1:18"
+          },
+          {
+            "title": "28. Tenzies: Setup",
+            "time": "3:26"
+          },
+          {
+            "title": "29. Tenzies: Die components",
+            "time": "6:50"
+          },
+          {
+            "title": "30. Tenzies: Generate array of 10 random numbers",
+            "time": "3:53"
+          },
+          {
+            "title": "31. Tenzies: Map array to Die components",
+            "time": "3:08"
+          },
+          {
+            "title": "32. Tenzies: Roll dice button",
+            "time": "4:41"
+          },
+          {
+            "title": "33. Tenzies: Change dice to objects",
+            "time": "4:32"
+          },
+          {
+            "title": "34. Tenzies: Styling held dice",
+            "time": "3:38"
+          },
+          {
+            "title": "35. Tenzies: Hold dice part 1",
+            "time": "5:17"
+          },
+          {
+            "title": "36. Tenzies: Hold dice part 2",
+            "time": "3:09"
+          },
+          {
+            "title": "37. Tenzies: Hold dice part 3",
+            "time": "4:01"
+          },
+          {
+            "title": "38. Tenzies: End game part 1",
+            "time": "2:35"
+          },
+          {
+            "title": "39. Tenzies: End game part 2",
+            "time": "4:55"
+          },
+          {
+            "title": "40. Tenzies: End game part 3",
+            "time": "4:15"
+          },
+          {
+            "title": "41. Tenzies: New Game",
+            "time": "3:12"
+          },
+          {
+            "title": "42. Tenzies: Extra Credit Ideas",
+            "time": "1:35"
+          },
+          {
+            "title": "43. Solo Project (PRO) - Quizzical",
+            "time": "6:27"
+          },
+          {
+            "title": "44. Check out the class components crash course!",
+            "time": "1:06"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced React",
+    "module": "Module 11",
+    "totalLessons": "173 lessons",
+    "totalTime": "13 hours 19 min",
+    "chapters": [
+      {
+        "title": "Reusability",
+        "totalLessons": "67 lessons",
+        "totalTime": "4 hours 59 min",
+        "lessons": [
+          {
+            "title": "1. Advanced React Intro",
+            "time": "4:38"
+          },
+          {
+            "title": "2. Button - props review challenge",
+            "time": "4:13"
+          },
+          {
+            "title": "3. Aside - children in HTML",
+            "time": "2:12"
+          },
+          {
+            "title": "4. Aside - React Children",
+            "time": "1:53"
+          },
+          {
+            "title": "5. Challenge - Button w/ Children",
+            "time": "1:38"
+          },
+          {
+            "title": "6. Button - More Complex React Children",
+            "time": "5:37"
+          },
+          {
+            "title": "7. Challenge - add onClick event listener",
+            "time": "2:52"
+          },
+          {
+            "title": "8. Aside - props spreading",
+            "time": "3:24"
+          },
+          {
+            "title": "9. Aside - Destructuring props",
+            "time": "3:32"
+          },
+          {
+            "title": "10. Button - size prop",
+            "time": "5:16"
+          },
+          {
+            "title": "11. Button - fix className issue",
+            "time": "6:55"
+          },
+          {
+            "title": "12. Challenge - Button w/ Variants",
+            "time": "4:17"
+          },
+          {
+            "title": "13. Mega Challenge - Overloaded Avatar Component",
+            "time": "10:05"
+          },
+          {
+            "title": "14. Menu Component Intro",
+            "time": "5:24"
+          },
+          {
+            "title": "15. Prop Drilling",
+            "time": "4:53"
+          },
+          {
+            "title": "16. Aside: Compound Components Intro",
+            "time": "4:52"
+          },
+          {
+            "title": "17. Compound Components in React - Part 1",
+            "time": "3:38"
+          },
+          {
+            "title": "18. Compound Components Quiz",
+            "time": "3:48"
+          },
+          {
+            "title": "19. Compound Components in React - Part 2",
+            "time": "2:24"
+          },
+          {
+            "title": "20. Compound Components in React - Part 3",
+            "time": "5:59"
+          },
+          {
+            "title": "21. Summarize Challenge - Compound Components in React",
+            "time": "0:42"
+          },
+          {
+            "title": "22. Prop Drilling Problem #2 - Implicit State",
+            "time": "3:46"
+          },
+          {
+            "title": "23. The React.Children API",
+            "time": "8:55"
+          },
+          {
+            "title": "24. React.Children shortcomings",
+            "time": "6:58"
+          },
+          {
+            "title": "25. Context Intro",
+            "time": "2:44"
+          },
+          {
+            "title": "26. createContext() & Context Provider",
+            "time": "5:42"
+          },
+          {
+            "title": "27. useContext()",
+            "time": "6:32"
+          },
+          {
+            "title": "28. Add context to the Menu component",
+            "time": "4:28"
+          },
+          {
+            "title": "29. State + Context",
+            "time": "6:30"
+          },
+          {
+            "title": "30. Theme switcher final touches",
+            "time": "2:04"
+          },
+          {
+            "title": "31. Menu component final touches",
+            "time": "4:11"
+          },
+          {
+            "title": "32. A11y in menu component",
+            "time": "6:30"
+          },
+          {
+            "title": "33. Aside - Compound components w/ dot syntax",
+            "time": "2:46"
+          },
+          {
+            "title": "34. Headless Toggle component",
+            "time": "3:54"
+          },
+          {
+            "title": "35. Toggle - setup",
+            "time": "5:14"
+          },
+          {
+            "title": "36. Toggle - Planning",
+            "time": "2:28"
+          },
+          {
+            "title": "37. Toggle Context",
+            "time": "3:41"
+          },
+          {
+            "title": "38. Toggle.Button",
+            "time": "6:39"
+          },
+          {
+            "title": "39. Toggle.On & Toggle.Off",
+            "time": "4:39"
+          },
+          {
+            "title": "40. Remove Star component",
+            "time": "5:07"
+          },
+          {
+            "title": "41. Use Toggle with Menu component",
+            "time": "7:44"
+          },
+          {
+            "title": "42. Composing new components with Toggle",
+            "time": "8:17"
+          },
+          {
+            "title": "43. onToggle event listener",
+            "time": "6:57"
+          },
+          {
+            "title": "44. Menu onClose event",
+            "time": "1:59"
+          },
+          {
+            "title": "45. Intro to Refs",
+            "time": "6:34"
+          },
+          {
+            "title": "46. Refs and DOM manipulation",
+            "time": "5:12"
+          },
+          {
+            "title": "47. Fix onToggle bug using refs",
+            "time": "3:21"
+          },
+          {
+            "title": "48. Fix missing onToggle bug using a noop function",
+            "time": "2:12"
+          },
+          {
+            "title": "49. Render Props Part 1",
+            "time": "5:05"
+          },
+          {
+            "title": "50. Render Props Part 2",
+            "time": "7:51"
+          },
+          {
+            "title": "51. Render Props Part 3",
+            "time": "5:36"
+          },
+          {
+            "title": "52. Render Props Part 4 - children as render props",
+            "time": "2:11"
+          },
+          {
+            "title": "53. Toggle.Display intro",
+            "time": "2:05"
+          },
+          {
+            "title": "54. Toggle.Display",
+            "time": "6:01"
+          },
+          {
+            "title": "55. Custom Hooks Intro",
+            "time": "1:55"
+          },
+          {
+            "title": "56. Custom Hooks - useEffectOnUpdate",
+            "time": "7:57"
+          },
+          {
+            "title": "57. Custom Hooks - useToggle",
+            "time": "4:45"
+          },
+          {
+            "title": "58. Custom Hooks - useToggle part 2",
+            "time": "3:13"
+          },
+          {
+            "title": "59. Custom Hooks - useToggle part 3",
+            "time": "2:57"
+          },
+          {
+            "title": "60. Custom Hooks - useToggle part 4",
+            "time": "3:04"
+          },
+          {
+            "title": "61. Custom Hooks - useToggle part 5",
+            "time": "3:05"
+          },
+          {
+            "title": "62. Custom Hooks - useToggle part 6",
+            "time": "4:56"
+          },
+          {
+            "title": "63. Custom Hooks - useToggle part 7",
+            "time": "1:42"
+          },
+          {
+            "title": "64. Custom Hooks - useToggle part 8",
+            "time": "3:41"
+          },
+          {
+            "title": "65. Custom Hooks - useToggle part 9",
+            "time": "2:22"
+          },
+          {
+            "title": "66. Reusability section recap",
+            "time": "1:39"
+          },
+          {
+            "title": "67. Solo Project - Component Library++",
+            "time": "5:59"
+          }
+        ]
+      },
+      {
+        "title": "React Router 6",
+        "totalLessons": "87 lessons",
+        "totalTime": "6 hours 30 min",
+        "lessons": [
+          {
+            "title": "1. Introduction to React Router 6",
+            "time": "2:54"
+          },
+          {
+            "title": "2. Multi-page vs single-page apps",
+            "time": "5:13"
+          },
+          {
+            "title": "3. React Router Setup & BrowserRouter",
+            "time": "3:12"
+          },
+          {
+            "title": "4. Routes",
+            "time": "2:40"
+          },
+          {
+            "title": "5. BrowserRouter & Routes challenge",
+            "time": "1:06"
+          },
+          {
+            "title": "6. Route, path, & element",
+            "time": "4:12"
+          },
+          {
+            "title": "7. Quick Re-org",
+            "time": "1:01"
+          },
+          {
+            "title": "8. Link",
+            "time": "3:59"
+          },
+          {
+            "title": "9. VanLife project bootstrapping",
+            "time": "8:03"
+          },
+          {
+            "title": "10. Initial Deploy to Netlify",
+            "time": "11:41"
+          },
+          {
+            "title": "11. Mirage JS Server",
+            "time": "1:50"
+          },
+          {
+            "title": "12. Challenge: Vans Page - Part 1",
+            "time": "2:14"
+          },
+          {
+            "title": "13. Challenge: Vans Page - Part 2",
+            "time": "9:06"
+          },
+          {
+            "title": "14. Route Params - part 1",
+            "time": "4:12"
+          },
+          {
+            "title": "15. Route Params - part 2",
+            "time": "1:46"
+          },
+          {
+            "title": "16. A11y Update - wrapping complex content in a link",
+            "time": "5:48"
+          },
+          {
+            "title": "17. Route Params part 3.1 - useParams() & challenge",
+            "time": "4:53"
+          },
+          {
+            "title": "18. Route Params part 3.2 - useParams() challenge",
+            "time": "7:10"
+          },
+          {
+            "title": "19. Route Params Quiz",
+            "time": "4:15"
+          },
+          {
+            "title": "20. Nested Routes Intro",
+            "time": "8:52"
+          },
+          {
+            "title": "21. Fixing the Navbar with a Layout Route",
+            "time": "4:52"
+          },
+          {
+            "title": "22. Fixing the Navbar with a Layout Route part 2",
+            "time": "7:42"
+          },
+          {
+            "title": "23. Bootstrap the Host pages",
+            "time": "3:57"
+          },
+          {
+            "title": "24. Nesting the /host routes",
+            "time": "3:45"
+          },
+          {
+            "title": "25. Creating the Host Layout",
+            "time": "6:27"
+          },
+          {
+            "title": "26. Relative Paths",
+            "time": "4:25"
+          },
+          {
+            "title": "27. Index Routes",
+            "time": "3:48"
+          },
+          {
+            "title": "28. To nest or not to nest?",
+            "time": "5:06"
+          },
+          {
+            "title": "29. Nested Routes Quiz",
+            "time": "4:48"
+          },
+          {
+            "title": "30. Add Footer",
+            "time": "3:18"
+          },
+          {
+            "title": "31. NavLink",
+            "time": "7:12"
+          },
+          {
+            "title": "32. Active Link Styling with NavLink",
+            "time": "3:52"
+          },
+          {
+            "title": "33. Active Link Styling with NavLink - part 2",
+            "time": "5:12"
+          },
+          {
+            "title": "34. Adding Host Vans Routes",
+            "time": "5:11"
+          },
+          {
+            "title": "35. 🔀 Optional Side Quest - Building out the Host Vans List and Detail Pages",
+            "time": "3:18"
+          },
+          {
+            "title": "36. Building out the Host Van Detail page",
+            "time": "8:54"
+          },
+          {
+            "title": "37. Relative Links",
+            "time": "7:01"
+          },
+          {
+            "title": "38. Back to all vans",
+            "time": "5:13"
+          },
+          {
+            "title": "39. Add /host/vans/:id Nested Routes",
+            "time": "8:06"
+          },
+          {
+            "title": "40. Add the Final Navbar!",
+            "time": "6:33"
+          },
+          {
+            "title": "41. Outlet Context",
+            "time": "5:30"
+          },
+          {
+            "title": "42. Search Params Intro",
+            "time": "7:16"
+          },
+          {
+            "title": "43. useSearchParams",
+            "time": "4:03"
+          },
+          {
+            "title": "44. Challenge: Set up search params in VanLife",
+            "time": "4:41"
+          },
+          {
+            "title": "45. Filter the array w/ the search param",
+            "time": "5:04"
+          },
+          {
+            "title": "46. Challenge: Filter the vans in VanLife",
+            "time": "1:41"
+          },
+          {
+            "title": "47. Using Links to add search params",
+            "time": "2:51"
+          },
+          {
+            "title": "48. Challenge: Filter the vans with Links",
+            "time": "3:12"
+          },
+          {
+            "title": "49. Using the search params setter function",
+            "time": "3:31"
+          },
+          {
+            "title": "50. Challenge: Filter the vans with a setter function",
+            "time": "2:30"
+          },
+          {
+            "title": "51. Caveats to setting params",
+            "time": "1:30"
+          },
+          {
+            "title": "52. Merging search params with Links",
+            "time": "6:09"
+          },
+          {
+            "title": "53. Merging search params with the setSearchParams function",
+            "time": "5:19"
+          },
+          {
+            "title": "54. Challenge: Conditional rendering practice",
+            "time": "4:39"
+          },
+          {
+            "title": "55. Fix remaining absolute paths",
+            "time": "1:50"
+          },
+          {
+            "title": "56. Back to all vans",
+            "time": "2:12"
+          },
+          {
+            "title": "57. Link state",
+            "time": "6:29"
+          },
+          {
+            "title": "58. useLocation",
+            "time": "7:59"
+          },
+          {
+            "title": "59. Challenge: conditionally render the back button text",
+            "time": "2:47"
+          },
+          {
+            "title": "60. 404 Page",
+            "time": "5:48"
+          },
+          {
+            "title": "61. \"Happy Path\" vs. \"Sad Path\" (new)",
+            "time": "2:32"
+          },
+          {
+            "title": "62. Quick update to our fetching code",
+            "time": "2:57"
+          },
+          {
+            "title": "63. Coding the Sad Path - Loading state (new)",
+            "time": "3:22"
+          },
+          {
+            "title": "64. Coding the Sad Path - Error handling",
+            "time": "5:59"
+          },
+          {
+            "title": "65. Update: Accessibility Addition",
+            "time": "1:29"
+          },
+          {
+            "title": "66. Initial Login Form",
+            "time": "1:50"
+          },
+          {
+            "title": "67. Note from the future: importing image assets in Vite",
+            "time": "2:47"
+          },
+          {
+            "title": "68. Protected Routes Intro (FDCP)",
+            "time": "1:48"
+          },
+          {
+            "title": "69. Protected Routes - AuthRequired Layout Route (FDCP)",
+            "time": "3:10"
+          },
+          {
+            "title": "70. Protected Routes - Implementing \"auth\" (FDCP)",
+            "time": "2:25"
+          },
+          {
+            "title": "71. Protected Routes - Navigate (FDCP)",
+            "time": "5:34"
+          },
+          {
+            "title": "72. VanLife Protected Routes (FDCP)",
+            "time": "3:25"
+          },
+          {
+            "title": "73. Protected Routes Quiz",
+            "time": "1:39"
+          },
+          {
+            "title": "74. Navigation State (FDCP)",
+            "time": "5:22"
+          },
+          {
+            "title": "75. Setup for authentication - happy path (FDCP)",
+            "time": "3:31"
+          },
+          {
+            "title": "76. Authentication setup - sad path (FDCP)",
+            "time": "7:28"
+          },
+          {
+            "title": "77. Navigate to /host route after login (FDCP)",
+            "time": "2:14"
+          },
+          {
+            "title": "78. History Stack and Replace (FDCP)",
+            "time": "5:30"
+          },
+          {
+            "title": "79. Challenge - send user to original page",
+            "time": "7:33"
+          },
+          {
+            "title": "80. Placeholders are gone! 🎉",
+            "time": "2:10"
+          },
+          {
+            "title": "81. Cloud Firestore Setup 🔥",
+            "time": "6:04"
+          },
+          {
+            "title": "82. Cloud Firestore Code Setup",
+            "time": "4:03"
+          },
+          {
+            "title": "83. Collection ref and getVans() function",
+            "time": "6:50"
+          },
+          {
+            "title": "84. Create getVan function",
+            "time": "3:53"
+          },
+          {
+            "title": "85. Refactor getHostVans function",
+            "time": "3:22"
+          },
+          {
+            "title": "86. Final loose ends",
+            "time": "1:34"
+          },
+          {
+            "title": "87. Outro",
+            "time": "3:09"
+          }
+        ]
+      },
+      {
+        "title": "Performance",
+        "totalLessons": "19 lessons",
+        "totalTime": "1 hour 49 min",
+        "lessons": [
+          {
+            "title": "1. Performance Intro",
+            "time": "4:08"
+          },
+          {
+            "title": "2. Recursive rendering",
+            "time": "4:28"
+          },
+          {
+            "title": "3. Three phases of \"rendering\"",
+            "time": "6:23"
+          },
+          {
+            "title": "4. Rendering Phases Quiz",
+            "time": "2:26"
+          },
+          {
+            "title": "5. Using Dev Tools to Measure Performance",
+            "time": "5:14"
+          },
+          {
+            "title": "6. StrictMode - double renders components",
+            "time": "7:46"
+          },
+          {
+            "title": "7. StrictMode - rerunning side effects",
+            "time": "6:27"
+          },
+          {
+            "title": "8. Code Splitting, lazy, Suspense - Part 1",
+            "time": "5:19"
+          },
+          {
+            "title": "9. Code Splitting, lazy, Suspense - Part 2",
+            "time": "10:17"
+          },
+          {
+            "title": "10. useMemo()",
+            "time": "6:34"
+          },
+          {
+            "title": "11. useMemo() practice",
+            "time": "6:25"
+          },
+          {
+            "title": "12. React.memo() - reducing rerenders",
+            "time": "9:02"
+          },
+          {
+            "title": "13. React.memo() practice",
+            "time": "3:06"
+          },
+          {
+            "title": "14. Value vs. Reference Types & referential equality",
+            "time": "4:51"
+          },
+          {
+            "title": "15. useMemo(), React.memo(), and referential equality",
+            "time": "6:27"
+          },
+          {
+            "title": "16. useMemo() practice",
+            "time": "2:14"
+          },
+          {
+            "title": "17. useCallback()",
+            "time": "4:41"
+          },
+          {
+            "title": "18. useCallback() practice",
+            "time": "9:19"
+          },
+          {
+            "title": "19. Course Outro",
+            "time": "4:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Getting hired",
+    "module": "Module 12",
+    "totalLessons": "110 lessons",
+    "totalTime": "5 hours 13 min",
+    "chapters": [
+      {
+        "title": "Getting hired",
+        "totalLessons": "4 lessons",
+        "totalTime": "20 min",
+        "lessons": [
+          {
+            "title": "1. Getting hired - Module Intro",
+            "time": "2:03"
+          },
+          {
+            "title": "2. Getting Hired",
+            "time": "9:21"
+          },
+          {
+            "title": "3. Getting Hired - Problem Solving",
+            "time": "5:59"
+          },
+          {
+            "title": "4. Getting a portfolio",
+            "time": "2:59"
+          }
+        ]
+      },
+      {
+        "title": "Using LinkedIn to get a job",
+        "totalLessons": "12 lessons",
+        "totalTime": "27 min",
+        "lessons": [
+          {
+            "title": "1. Course Introduction (new)",
+            "time": "1:56"
+          },
+          {
+            "title": "2. Optimizing your headline",
+            "time": "2:00"
+          },
+          {
+            "title": "3. Crafting a great summary",
+            "time": "4:15"
+          },
+          {
+            "title": "4. Adding a professional headshot",
+            "time": "1:37"
+          },
+          {
+            "title": "5. Adding an awesome cover image",
+            "time": "1:40"
+          },
+          {
+            "title": "6. Increasing your visibility",
+            "time": "2:27"
+          },
+          {
+            "title": "7. Adding past work experience",
+            "time": "2:35"
+          },
+          {
+            "title": "8. Highlighting your accomplishments",
+            "time": "3:00"
+          },
+          {
+            "title": "9. Optimizing your keywords",
+            "time": "2:37"
+          },
+          {
+            "title": "10. Getting connected",
+            "time": "2:04"
+          },
+          {
+            "title": "11. Getting recommendations (new)",
+            "time": "2:26"
+          },
+          {
+            "title": "12. Outro",
+            "time": "0:38"
+          }
+        ]
+      },
+      {
+        "title": "Frontend job interview tips",
+        "totalLessons": "21 lessons",
+        "totalTime": "1 hour 33 min",
+        "lessons": [
+          {
+            "title": "1. Course Introduction",
+            "time": "1:52"
+          },
+          {
+            "title": "2. Falsy Values",
+            "time": "3:06"
+          },
+          {
+            "title": "3. const vs let vs var",
+            "time": "4:29"
+          },
+          {
+            "title": "4. Double vs triple equal",
+            "time": "2:11"
+          },
+          {
+            "title": "5. undefined vs null",
+            "time": "2:54"
+          },
+          {
+            "title": "6. Data Types",
+            "time": "1:58"
+          },
+          {
+            "title": "7. Spread & Rest Operators",
+            "time": "5:55"
+          },
+          {
+            "title": "8. Destructuring Objects and Arrays",
+            "time": "3:29"
+          },
+          {
+            "title": "9. Git Fundamentals",
+            "time": "2:51"
+          },
+          {
+            "title": "10. Agile & Scrum",
+            "time": "4:31"
+          },
+          {
+            "title": "11. CSS Selectors",
+            "time": "2:45"
+          },
+          {
+            "title": "12. Responsive Design",
+            "time": "2:18"
+          },
+          {
+            "title": "13. Number Issues",
+            "time": "1:52"
+          },
+          {
+            "title": "14. Promises",
+            "time": "5:20"
+          },
+          {
+            "title": "15. Pass by value vs pass by reference",
+            "time": "3:09"
+          },
+          {
+            "title": "16. Five questions to be prepared for",
+            "time": "5:35"
+          },
+          {
+            "title": "17. Five preparation tips",
+            "time": "5:54"
+          },
+          {
+            "title": "18. Got any questions for me?",
+            "time": "6:20"
+          },
+          {
+            "title": "19. GitHub tips",
+            "time": "4:08"
+          },
+          {
+            "title": "20. Resume tips",
+            "time": "14:38"
+          },
+          {
+            "title": "21. Job search strategy",
+            "time": "8:00"
+          }
+        ]
+      },
+      {
+        "title": "JavaScript Interview Challenges ",
+        "totalLessons": "61 lessons",
+        "totalTime": "2 hours 9 min",
+        "lessons": [
+          {
+            "title": "1. Technical Interview Challenges - Intro",
+            "time": "4:58"
+          },
+          {
+            "title": "2. Challenge - Panic Function ",
+            "time": "0:35"
+          },
+          {
+            "title": "3.  Solution - Panic Function",
+            "time": "1:19"
+          },
+          {
+            "title": "4. Challenge - Shh... Whispering Function",
+            "time": "0:40"
+          },
+          {
+            "title": "5. Solution - Shh... Whisper Function",
+            "time": "2:13"
+          },
+          {
+            "title": "6. Challenge - Alternating Caps",
+            "time": "0:53"
+          },
+          {
+            "title": "7. Solution - Alternating Caps",
+            "time": "2:06"
+          },
+          {
+            "title": "8. Challenge - toTitleCase()",
+            "time": "0:53"
+          },
+          {
+            "title": "9. Solution - toTitleCase() ",
+            "time": "2:09"
+          },
+          {
+            "title": "10. Challenge - Definitely Not FizzBuzz",
+            "time": "1:26"
+          },
+          {
+            "title": "11. Solution - Definitely Not FizzBuzz ",
+            "time": "4:28"
+          },
+          {
+            "title": "12. Challenge - Emojify! ",
+            "time": "2:37"
+          },
+          {
+            "title": "13. Solution - Emojify! ",
+            "time": "5:28"
+          },
+          {
+            "title": "14. Challenge: Is it an Anagram? ",
+            "time": "1:19"
+          },
+          {
+            "title": "15. Solution - Is It an Anagram?",
+            "time": "3:14"
+          },
+          {
+            "title": "16. Challenge - Decode an Alien Message",
+            "time": "1:15"
+          },
+          {
+            "title": "17. Solution - Decode an Alien Message",
+            "time": "3:34"
+          },
+          {
+            "title": "18. Challenge - Palindromes",
+            "time": "1:15"
+          },
+          {
+            "title": "19. Solution - Palindromes",
+            "time": "2:48"
+          },
+          {
+            "title": "20. Challenge - Save Grandpa's Password",
+            "time": "0:51"
+          },
+          {
+            "title": "21. Solution - Save Grandpa's Password",
+            "time": "3:22"
+          },
+          {
+            "title": "22. Challenge - Frequency of Letters in Your Name",
+            "time": "0:50"
+          },
+          {
+            "title": "23. Solution - Frequency of Letters in Your Name",
+            "time": "3:11"
+          },
+          {
+            "title": "24. Challenge: Chef Mario's Recipe Book",
+            "time": "0:43"
+          },
+          {
+            "title": "25. Solution Pt 1: Chef Mario's Recipe Book",
+            "time": "2:29"
+          },
+          {
+            "title": "26. Solution Pt 2: Chef Mario's Recipe Book",
+            "time": "3:39"
+          },
+          {
+            "title": "27. Challenge - Pumpkin's Prizes",
+            "time": "0:56"
+          },
+          {
+            "title": "28. Solution - Pumpkin's Prizes",
+            "time": "2:59"
+          },
+          {
+            "title": "29. Challenge - Count the Scrimba Students ",
+            "time": "0:54"
+          },
+          {
+            "title": "30. Solution - Count the Scrimba Students ",
+            "time": "1:48"
+          },
+          {
+            "title": "31. Challenge - Pizza Night? ",
+            "time": "0:40"
+          },
+          {
+            "title": "32. Solution - Pizza Night? ",
+            "time": "3:33"
+          },
+          {
+            "title": "33. Challenge - Totally Private Data Farm",
+            "time": "1:26"
+          },
+          {
+            "title": "34. Solution - Totally Private Data Farm",
+            "time": "2:17"
+          },
+          {
+            "title": "35. Challenge - Find Free Podcasts ",
+            "time": "0:50"
+          },
+          {
+            "title": "36. Solution - Find Free Podcasts",
+            "time": "2:00"
+          },
+          {
+            "title": "37. Challenge - Candy Sale",
+            "time": "0:36"
+          },
+          {
+            "title": "38. Solution - Candy Sale",
+            "time": "1:52"
+          },
+          {
+            "title": "39. Challenge - Shopping Cart",
+            "time": "0:59"
+          },
+          {
+            "title": "40. Solution - Shopping Cart",
+            "time": "2:51"
+          },
+          {
+            "title": "41. Challenge - Total Savory Items",
+            "time": "0:41"
+          },
+          {
+            "title": "42. Solution - Total Savory Items",
+            "time": "1:58"
+          },
+          {
+            "title": "43. Challenge - Holiday Gift Shopping",
+            "time": "0:52"
+          },
+          {
+            "title": "44. Solution - Holiday Gift Shopping",
+            "time": "2:50"
+          },
+          {
+            "title": "45. Challenge - Collect Unique Genre Tags",
+            "time": "0:50"
+          },
+          {
+            "title": "46. Solution Pt 1: Collect Unique Genre Tags",
+            "time": "3:50"
+          },
+          {
+            "title": "47. Solution Pt 2: Collect Unique Genre Tags",
+            "time": "3:23"
+          },
+          {
+            "title": "48. Challenge - Welcome Aboard Scrimba Airlines",
+            "time": "0:58"
+          },
+          {
+            "title": "49. Solution - Welcome Aboard Scrimba Airlines",
+            "time": "3:47"
+          },
+          {
+            "title": "50. Challenge - Popularity Contest ",
+            "time": "0:49"
+          },
+          {
+            "title": "51. Solution - Popularity Contest ",
+            "time": "2:38"
+          },
+          {
+            "title": "52. Challenge - Night at the Scrimbies",
+            "time": "0:52"
+          },
+          {
+            "title": "53. Solution - Night at the Scrimbies",
+            "time": "4:37"
+          },
+          {
+            "title": "54. Challenge - Save the Weekend",
+            "time": "1:36"
+          },
+          {
+            "title": "55. Solution - Save the Weekend",
+            "time": "3:08"
+          },
+          {
+            "title": "56. Challenge - Find Anagrams in an Array",
+            "time": "2:15"
+          },
+          {
+            "title": "57. Solution - Find Anagrams in an Array",
+            "time": "3:28"
+          },
+          {
+            "title": "58. Challenge - Emoji Flower Bed",
+            "time": "0:43"
+          },
+          {
+            "title": "59. Solution - Emoji Flower Bed",
+            "time": "1:53"
+          },
+          {
+            "title": "60. Challenge - Emoji Slot Machine",
+            "time": "1:22"
+          },
+          {
+            "title": "61. Solution - Emoji Slot Machine",
+            "time": "4:55"
+          }
+        ]
+      },
+      {
+        "title": "React interview questions",
+        "totalLessons": "12 lessons",
+        "totalTime": "42 min",
+        "lessons": [
+          {
+            "title": "1. React Interview Questions Course Introduction",
+            "time": "1:54"
+          },
+          {
+            "title": "2. The Virtual DOM",
+            "time": "4:18"
+          },
+          {
+            "title": "3. React Limitations",
+            "time": "4:19"
+          },
+          {
+            "title": "4. JSX",
+            "time": "4:04"
+          },
+          {
+            "title": "5. Props",
+            "time": "3:10"
+          },
+          {
+            "title": "6. State and Lifecycle",
+            "time": "4:35"
+          },
+          {
+            "title": "7. Effects",
+            "time": "3:25"
+          },
+          {
+            "title": "8. Refs",
+            "time": "2:26"
+          },
+          {
+            "title": "9. Context",
+            "time": "3:13"
+          },
+          {
+            "title": "10. Miscellaneous (but important!) Questions",
+            "time": "7:49"
+          },
+          {
+            "title": "11. React Interview Questions Course Conclusion",
+            "time": "1:20"
+          },
+          {
+            "title": "12. Congratulations on completing The Frontend Developer Career Path! ✨",
+            "time": "1:55"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# OSX files
+.DS_Store
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.cdtproject
+.settings
+.vscode/
+
+# Environment Variables
+.env
+
+# Production related
+/dist
+/build
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env*
+
+# next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist/
