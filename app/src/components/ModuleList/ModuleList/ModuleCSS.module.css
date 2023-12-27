@@ -1,0 +1,11 @@
+.moduleList {
+    width: 50svw;
+    margin-block: 1em;
+    margin-inline: auto;
+}
+/* .moduleList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
