@@ -8,7 +8,7 @@ function App() {
 
   return (
       <main>
-        <h1>Scrimba Schedule App</h1>
+        <h1>Bootcamp Schedule App</h1>
           <ModuleList modulesData={modulesData} />
       </main>
   )
