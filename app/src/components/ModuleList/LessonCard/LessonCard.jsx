@@ -1,18 +1,17 @@
-import PropTypes from 'prop-types';
-import styles from './LessonCardCSS.module.css';
+import styles from "./LessonCardCSS.module.css";
+import { Card, Title, MetaData } from "../../UI/Card/Card";
 
 export default function LessonCard({ lesson, isLessonsHidden }) {
-    return (
-        <div className={isLessonsHidden ?  'hidden' : ''}>
-            <div className={styles.lessonCard}>
-                <h4>{lesson.title}</h4>
-                <p>{lesson.time}</p>
-            </div>
-        </div>
-    )
-}
-
-LessonCard.propTypes = {
-    lesson: PropTypes.object.isRequired,
-    isLessonsHidden: PropTypes.bool.isRequired,
+  return (
+    <div className={isLessonsHidden ? "hidden" : styles.lessonCard}>
+      <Card>
+        <Title>{lesson.title}</Title>
+        <MetaData>
+          <p>
+            Time: <span>{lesson.time}</span>
+          </p>
+        </MetaData>
+      </Card>
+    </div>
+  );
 }

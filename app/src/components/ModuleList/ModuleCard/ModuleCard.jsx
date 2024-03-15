@@ -1,7 +1,7 @@
-import PropTypes from "prop-types";
 import { useState } from "react";
 import ChapterCard from "../ChapterCard/ChapterCard";
 import style from "./ModuleCardCSS.module.css";
+import { Card, ModuleTitle, Title, MetaData } from "../../UI/Card/Card";
 
 export default function ModuleCard({ module, index }) {
   const [isChapterHidden, setIsChapterHidden] = useState(true);
@@ -11,35 +11,31 @@ export default function ModuleCard({ module, index }) {
   }
 
   return (
-    <div onClick={handleClick} className={style.container}>
-      <div className={style.moduleCard}>
-        <div className={style.rectangle}>
-          <h2 className={style.moduleTitle}>
-            Module <span>{index + 1}</span>
-          </h2>
-        </div>
-        <h3 className={style.title}>{module.title}</h3>
-        <div className={style.metaData}>
-          <p>Chapters: {module.chapters.length}</p>
-          <p>Total Time: {module.totalTime}</p>
-        </div>
-      </div>
+    <div onClick={handleClick} className={[style.span, style.space].join("")}>
+      <Card>
+        <ModuleTitle>
+          Module <span>{index + 1}</span>
+        </ModuleTitle>
+        <Title>{module.title}</Title>
+        <MetaData>
+          <p className={style.data}>
+            Chapters: <span>{module.chapters.length}</span>
+          </p>
+          <p className={style.data}>
+            Total Time: <span>{module.totalTime}</span>
+          </p>
+        </MetaData>
+      </Card>
 
-      <div className={style.chaptersContainer}>
-        {module.chapters.map((chapter) => {
-          return (
-            <ChapterCard
-              key={crypto.randomUUID()}
-              chapter={chapter}
-              isChapterHidden={isChapterHidden}
-            />
-          );
-        })}
-      </div>
+      {module.chapters.map((chapter) => {
+        return (
+          <ChapterCard
+            key={crypto.randomUUID()}
+            chapter={chapter}
+            isChapterHidden={isChapterHidden}
+          />
+        );
+      })}
     </div>
   );
 }
-
-ModuleCard.propTypes = {
-  module: PropTypes.object.isRequired,
-};

@@ -3,9 +3,10 @@
   margin-block: 1em;
   margin-inline: auto;
 }
+
 .moduleList {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 20px;
+  gap: 1em;
+  padding: 1em;
 }

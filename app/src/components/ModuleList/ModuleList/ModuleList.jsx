@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import ModuleCard from "../ModuleCard/ModuleCard";
 import ModuleCSS from "./ModuleCSS.module.css";
 
@@ -9,7 +8,3 @@ export default function ModuleList({ modulesData }) {
 
   return <section className={ModuleCSS.moduleList}>{classData}</section>;
 }
-
-ModuleList.propTypes = {
-  modulesData: PropTypes.array.isRequired,
-};

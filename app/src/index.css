@@ -154,4 +154,5 @@ body {
   --light-green: hsla(124, 67%, 69%, 1);
   --maize: hsla(53, 98%, 65%, 1);
   --rich-black: hsla(195, 100%, 7%, 1);
+  --shadow: hsla(195, 100%, 7%, .2);
 }
