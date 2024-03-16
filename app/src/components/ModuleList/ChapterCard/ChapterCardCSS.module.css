@@ -1,16 +1,4 @@
 .chapterCardContainer {
-    width: calc(100% - 2em);
-    margin-left: 2em;
-}
-
-.chapterCard {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-}
-
-.metaData {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+  width: calc(100% - 2em);
+  margin-left: 2em;
 }
