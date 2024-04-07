@@ -1,17 +1,18 @@
-import { useEffect } from "react";
+import { useState } from "react";
 import "./App.css";
 import jsonData from "./assets/data.json";
 import ModuleList from "./components/ModuleList/ModuleList/ModuleList";
-import { db } from "./services/db.js";
+import useUserDB from "./hooks/db/createDB";
+
 function App() {
-  useEffect(() => {
-    db.modules.bulkPut(jsonData);
-  }, []);
+  const [modulesData] = useState(jsonData);
+  const [localKeyData, setLocalKeyData] = useState();
+  const { completed } = useUserDB(localKeyData);
 
   return (
     <main>
       <h1>Bootcamp Schedule App</h1>
-      <ModuleList db={db} />
+      <ModuleList modulesData={modulesData} />
     </main>
   );
 }

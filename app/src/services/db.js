@@ -1,7 +1,23 @@
-import Dexie from "dexie";
+import { openDB } from "idb";
 
-export const db = new Dexie("myDatabase");
-
-db.version(1).stores({
-  modules: "id", // Primary key and indexed props
+const dbPromise = openDB("keyval-store", 1, {
+  upgrade(db) {
+    db.createObjectStore("keyval", { keyPath: "id", autoIncrement: true });
+  },
 });
+
+export async function get(key) {
+  return (await dbPromise).get("keyval", key);
+}
+export async function set(key) {
+  return (await dbPromise).put("keyval", { id: key });
+}
+export async function del(key) {
+  return (await dbPromise).delete("keyval", key);
+}
+export async function clear() {
+  return (await dbPromise).clear("keyval");
+}
+export async function keys() {
+  return (await dbPromise).getAllKeys("keyval");
+}
