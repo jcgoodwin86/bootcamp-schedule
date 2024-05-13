@@ -9,8 +9,8 @@ const dbPromise = openDB("keyval-store", 1, {
 export async function get(key) {
   return (await dbPromise).get("keyval", key);
 }
-export async function set(key) {
-  return (await dbPromise).put("keyval", { id: key });
+export async function set(user) {
+  return (await dbPromise).put("keyval", { ...user, id: user.id });
 }
 export async function del(key) {
   return (await dbPromise).delete("keyval", key);
