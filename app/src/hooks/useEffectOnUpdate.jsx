@@ -1,3 +1,4 @@
+// Custom hook to run an effect only on update
 import React from "react";
 
 export default function useEffectOnUpdate(effectFunction, deps) {

@@ -1,3 +1,4 @@
+// IndexedDB service to store data locally
 import { openDB } from "idb";
 
 const dbPromise = openDB("keyval-store", 1, {

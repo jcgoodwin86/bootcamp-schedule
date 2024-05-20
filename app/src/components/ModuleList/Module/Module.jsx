@@ -1,5 +1,5 @@
+// Module component to handle the open state of the module
 import React from "react";
-import ModuleCSS from "./ModuleCSS.module.css";
 import useToggle from "../../../hooks/useToggle";
 
 const ModuleContext = React.createContext();
@@ -17,7 +17,3 @@ export default function Module({ children, onOpen }) {
     </ModuleContext.Provider>
   );
 }
-
-// {modulesData?.map((module, i) => (
-//   <ModuleCard module={module} key={module.id} index={i} />
-// ))}
