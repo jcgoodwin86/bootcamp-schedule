@@ -67,6 +67,7 @@ const getQuotes = async () => {
           totalLessons: lessonCount,
           totalTime: duration,
           id: crypto.randomUUID(),
+          completed: false,
           chapters: chapters,
         };
       }
@@ -88,6 +89,7 @@ const getQuotes = async () => {
           totalLessons: chapterLessonCount,
           totalTime: totalChapterTime,
           id: crypto.randomUUID(),
+          completed: false,
           lessons: getLessons(chapterEle.querySelector(".children")),
         };
       }
@@ -101,6 +103,7 @@ const getQuotes = async () => {
           return {
             title: lessonTitle,
             time: lessonTime,
+            completed: false,
             id: crypto.randomUUID(),
           };
         });
