@@ -1,3 +1,4 @@
+// Style components for Module Card
 import style from "./Card.module.css";
 function Card({ children }) {
   return <div className={style.container}>{children}</div>;

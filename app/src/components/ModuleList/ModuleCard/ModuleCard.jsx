@@ -1,41 +1,35 @@
-import { useState } from "react";
-import ChapterCard from "../ChapterCard/ChapterCard";
+// The ModuleCard component which is used to display the module card in the module list.
+import React from "react";
 import style from "./ModuleCardCSS.module.css";
-import { Card, ModuleTitle, Title, MetaData } from "../../UI/Card/Card";
+import { Card } from "../../UI/Card/Card";
+import { ModuleContext } from "../Module/Module.jsx";
+import Checkbox from "../../ModuleList/Checkbox/Checkbox.jsx";
+import { useModuleData } from "../../../hooks/useModuleData.jsx";
 
-export default function ModuleCard({ module, index }) {
-  const [isChapterHidden, setIsChapterHidden] = useState(true);
+export default function ModuleCard({
+  children,
+  hasDropDown = true,
+  id,
+  completed,
+}) {
+  const { updateModuleCompletion } = useModuleData();
+  const { ToggleOpen } = React.useContext(ModuleContext);
 
-  function handleClick() {
-    setIsChapterHidden((prevState) => !prevState);
-  }
+  const handleClick = (event) => {
+    event.stopPropagation();
+    hasDropDown && ToggleOpen();
+  };
 
   return (
     <div onClick={handleClick} className={[style.span, style.space].join("")}>
       <Card>
-        <ModuleTitle>
-          Module <span>{index + 1}</span>
-        </ModuleTitle>
-        <Title>{module.title}</Title>
-        <MetaData>
-          <p className={style.data}>
-            Chapters: <span>{module.chapters.length}</span>
-          </p>
-          <p className={style.data}>
-            Total Time: <span>{module.totalTime}</span>
-          </p>
-        </MetaData>
+        <Checkbox
+          completed={completed}
+          onChange={updateModuleCompletion}
+          id={id}
+        />
+        {children}
       </Card>
-
-      {module.chapters.map((chapter) => {
-        return (
-          <ChapterCard
-            key={crypto.randomUUID()}
-            chapter={chapter}
-            isChapterHidden={isChapterHidden}
-          />
-        );
-      })}
     </div>
   );
 }
