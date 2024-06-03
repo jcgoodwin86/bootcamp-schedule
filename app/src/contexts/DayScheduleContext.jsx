@@ -4,7 +4,10 @@ export const DayScheduleContext = React.createContext();
 
 export const DayScheduleProvider = ({ children }) => {
   const [daySchedule, setDaySchedule] = React.useState([]);
-  const [availableTime, setAvailableTime] = React.useState("");
+  const [availableTime, setAvailableTime] = React.useState({
+    hours: 0,
+    minutes: 0,
+  });
   const [bufferTime, setBufferTime] = React.useState("");
   return (
     <DayScheduleContext.Provider
