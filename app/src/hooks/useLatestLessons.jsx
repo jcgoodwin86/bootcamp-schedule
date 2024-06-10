@@ -1,61 +1,69 @@
 import React from "react";
 import { UserContext } from "../contexts/UserContext";
 
-export default function useLatestLessons() {
+// Helper function outside of components and hooks
+const convertToSeconds = (time) => {
+  const [minutes, seconds] = time.split(":");
+  return Number(minutes) * 60 + Number(seconds);
+};
+
+export default function useLatestLessons(timeLimit = 1800) {
   const [latestLessons, setLatestLessons] = React.useState([]);
   const { modulesData } = React.useContext(UserContext);
 
-  function findIncompleteLessons(item, incompleteLessons = [], maxCount = 4) {
-    if (incompleteLessons.length >= maxCount) {
-      return incompleteLessons;
-    }
+  const findIncompleteLessons = React.useCallback(
+    (item, incompleteLessons = [], totalTime = 0) => {
+      if (totalTime >= timeLimit) {
+        return { lessons: incompleteLessons, totalTime };
+      }
 
-    // Base case: looking through lessons
-    if (item.lessons) {
-      for (const lesson of item.lessons) {
-        if (!lesson.completed) {
-          incompleteLessons.push(lesson);
-          if (incompleteLessons.length >= maxCount) {
-            return incompleteLessons;
+      if (item.lessons) {
+        for (const lesson of item.lessons) {
+          if (!lesson.completed) {
+            const lessonTime = convertToSeconds(lesson.time);
+            // console.log("Checking lesson", { lesson, lessonTime });
+
+            if (totalTime + lessonTime <= timeLimit) {
+              incompleteLessons.push(lesson);
+              totalTime += lessonTime;
+              // console.log("Lesson added", { incompleteLessons, totalTime });
+            } else {
+              // console.log("Time limit exceeded, stopping", { lesson, totalTime });
+              break;
+            }
+          }
+        }
+      } else if (item.chapters || Array.isArray(item)) {
+        const children = item.chapters || item;
+        for (const child of children) {
+          if (!child.completed) {
+            // console.log("Checking child", { child });
+            const result = findIncompleteLessons(
+              child,
+              incompleteLessons,
+              totalTime
+            );
+            incompleteLessons = result.lessons;
+            totalTime = result.totalTime;
+
+            if (totalTime >= timeLimit) {
+              // console.log("Time limit reached within children:", { incompleteLessons, totalTime });
+              break; // Ensure we stop processing further children once time limit is hit
+            }
           }
         }
       }
-      return incompleteLessons;
-    }
-
-    // Recursive case: looking through chapters
-    if (item.chapters) {
-      for (const chapter of item.chapters) {
-        if (!chapter.completed) {
-          findIncompleteLessons(chapter, incompleteLessons, maxCount);
-          if (incompleteLessons.length >= maxCount) {
-            return incompleteLessons;
-          }
-        }
-      }
-      return incompleteLessons;
-    }
-
-    // Recursive case: looking through modules
-    if (!item.completed) {
-      for (const module of item) {
-        if (!module.completed) {
-          findIncompleteLessons(module, incompleteLessons, maxCount);
-          if (incompleteLessons.length >= maxCount) {
-            return incompleteLessons;
-          }
-        }
-      }
-      return incompleteLessons;
-    }
-
-    return incompleteLessons;
-  }
+      return { lessons: incompleteLessons, totalTime };
+    },
+    [timeLimit]
+  );
 
   React.useEffect(() => {
-    const lessons = findIncompleteLessons(modulesData.completed);
+    // console.log("Starting search with modulesData:", modulesData.completed);
+    const { lessons } = findIncompleteLessons(modulesData.completed);
     setLatestLessons(lessons);
-  }, [modulesData]);
+    // console.log("Set latest lessons:", lessons);
+  }, [modulesData, timeLimit, findIncompleteLessons]);
 
   return { latestLessons };
 }
