@@ -2,17 +2,24 @@ import React from "react";
 import TextInput from "../TextInput/TextInput";
 import style from "./InputWrapper.module.css";
 import { DayScheduleContext } from "../../../contexts/DayScheduleContext";
+import debounce from "../../../utils/debouncer";
 
 export default function InputWrapper() {
   const { availableTime, bufferTime, setAvailableTime, setBufferTime } =
     React.useContext(DayScheduleContext);
+
+  const debouncedSetAvailableTime = React.useRef(
+    debounce(setAvailableTime, 800)
+  );
+
+  const debouncedSetBufferTime = React.useRef(debounce(setBufferTime, 800));
 
   const handleChange1 = (event) => {
     if (event.target.value > 8) {
       event.target.value = 8;
     }
     const { value } = event.target;
-    setAvailableTime({ ...availableTime, hours: value });
+    debouncedSetAvailableTime.current({ ...availableTime, hours: value });
   };
 
   const handleChange2 = (event) => {
@@ -21,7 +28,7 @@ export default function InputWrapper() {
       event.target.value = 59;
     }
     const { value } = event.target;
-    setAvailableTime({ ...availableTime, minutes: value });
+    debouncedSetAvailableTime.current({ ...availableTime, minutes: value });
   };
 
   const handleChange3 = (event) => {
@@ -29,7 +36,7 @@ export default function InputWrapper() {
       event.target.value = 59;
     }
     const { value } = event.target;
-    setBufferTime(value);
+    debouncedSetBufferTime.current(value);
   };
 
   return (

@@ -1,4 +1,5 @@
 import React from "react";
+import useLatestLessons from "../hooks/useLatestLessons";
 
 export const DayScheduleContext = React.createContext();
 
@@ -9,6 +10,15 @@ export const DayScheduleProvider = ({ children }) => {
     minutes: 0,
   });
   const [bufferTime, setBufferTime] = React.useState("");
+  const { latestLessons } = useLatestLessons(
+    availableTime.hours * 60 * 60 + availableTime.minutes * 60,
+    bufferTime
+  );
+
+  React.useEffect(() => {
+    setDaySchedule(latestLessons);
+  }, [latestLessons]);
+
   return (
     <DayScheduleContext.Provider
       value={{

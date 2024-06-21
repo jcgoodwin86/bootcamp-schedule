@@ -7,13 +7,12 @@ import DaySchedule from "./components/DaySchedule/Index";
 function App() {
   return (
     <main>
-      <h1>Bootcamp Schedule App</h1>
+      <h1 className="title">Bootcamp Schedule App</h1>
       <UserProvider>
         <DayScheduleProvider>
           <DaySchedule>
-            <h4>Lessons For Today</h4>
-            <DaySchedule.LessonList />
             <DaySchedule.InputWrapper />
+            <DaySchedule.LessonList />
           </DaySchedule>
         </DayScheduleProvider>
         <ModuleList />
