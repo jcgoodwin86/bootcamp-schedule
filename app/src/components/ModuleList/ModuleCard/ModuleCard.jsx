@@ -5,7 +5,6 @@ import { Card } from "../../UI/Card/Card";
 import { ModuleContext } from "../Module/Module.jsx";
 import Checkbox from "../../ModuleList/Checkbox/Checkbox.jsx";
 import { useModuleData } from "../../../hooks/useModuleData.jsx";
-
 export default function ModuleCard({
   children,
   hasDropDown = true,
@@ -21,7 +20,7 @@ export default function ModuleCard({
   };
 
   return (
-    <div onClick={handleClick} className={[style.span, style.space].join("")}>
+    <div onClick={handleClick} className={[style.span, style.space].join(" ")}>
       <Card>
         <Checkbox
           completed={completed}
