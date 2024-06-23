@@ -16,7 +16,7 @@ export default function useLoadStateFromDB() {
   useEffect(() => {
     async function initializeDB() {
       const data = await get(1);
-      if (data && data.id) {
+      if (data && data.completed[0]) {
         setLocalUserData(data);
       } else {
         // Populate IndexedDB with default JSON data
