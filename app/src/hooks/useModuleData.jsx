@@ -1,45 +1,60 @@
-// Custom hook to update the completion status of modules, chapters, and lessons.
+// Custom hook to manage course completion states in a hierarchical structure:
+// Module -> Chapters -> Lessons
 import { useContext, useCallback } from "react";
 import { UserContext } from "../contexts/UserContext.jsx";
 
-// Define the recursive function
 const updateCompletionStatus = (items, idToToggle, forceComplete = null) => {
   return items.map((item) => {
+    // Track completion state for current item
     let completed = item.completed;
 
-    // Toggle the completion status if this is the item to change.
+    // Case 1: Direct toggle - user clicked this specific item
     if (item.id === idToToggle) {
       completed = !item.completed;
     }
 
-    // If part of a parent's state change, propagate it to children.
+    // Case 2: Parent propagation - parent's state changed, update children
     if (forceComplete !== null) {
       completed = forceComplete;
     }
 
-    // If the item has chapters, recursively update their statuses.
+    // Handle Module level (contains chapters)
     if (item.chapters) {
+      // Step 1: Recursively update all chapters
+      const updatedChapters = updateCompletionStatus(
+        item.chapters,
+        idToToggle,
+        // Only propagate if module's status changed
+        completed !== item.completed ? completed : null
+      );
+
+      // Step 2: Module is complete only if all chapters are complete
+      completed = updatedChapters.every((chapter) => chapter.completed);
+
       return {
         ...item,
         completed,
-        chapters: updateCompletionStatus(
-          item.chapters,
-          idToToggle,
-          completed !== item.completed ? completed : null
-        ),
+        chapters: updatedChapters,
       };
     }
 
-    // If the item has lessons, recursively update their statuses.
+    // Handle Chapter level (contains lessons)
     if (item.lessons) {
+      // Step 1: Recursively update all lessons
+      const updatedLessons = updateCompletionStatus(
+        item.lessons,
+        idToToggle,
+        // Only propagate if chapter's status changed
+        completed !== item.completed ? completed : null
+      );
+
+      // Step 2: Chapter is complete only if all lessons are complete
+      completed = updatedLessons.every((lesson) => lesson.completed);
+
       return {
         ...item,
         completed,
-        lessons: updateCompletionStatus(
-          item.lessons,
-          idToToggle,
-          completed !== item.completed ? completed : null
-        ),
+        lessons: updatedLessons,
       };
     }
 
