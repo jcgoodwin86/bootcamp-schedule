@@ -1,12 +1,18 @@
 import React from "react";
 import TextInput from "../TextInput/TextInput";
+import Button from "../../UI/Button/Button";
 import style from "./InputWrapper.module.css";
 import { DayScheduleContext } from "../../../contexts/DayScheduleContext";
 import debounce from "../../../utils/debouncer";
 
 export default function InputWrapper() {
-  const { availableTime, bufferTime, setAvailableTime, setBufferTime } =
-    React.useContext(DayScheduleContext);
+  const {
+    generateSchedule,
+    availableTime,
+    bufferTime,
+    setAvailableTime,
+    setBufferTime,
+  } = React.useContext(DayScheduleContext);
 
   const debouncedSetAvailableTime = React.useRef(
     debounce(setAvailableTime, 800)
@@ -58,6 +64,7 @@ export default function InputWrapper() {
       <TextInput time={bufferTime} handleChange={handleChange3} id="bufferTime">
         <span>Buffer Time</span>
       </TextInput>
+      <Button onClick={generateSchedule}>Create List</Button>
     </div>
   );
 }

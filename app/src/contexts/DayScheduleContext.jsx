@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useCallback, useContext } from "react";
 import useLatestLessons from "../hooks/useLatestLessons";
+import { UserContext } from "../contexts/UserContext"; // Assuming UserContext is defined in this file
 
 export const DayScheduleContext = React.createContext();
 
@@ -15,13 +16,48 @@ export const DayScheduleProvider = ({ children }) => {
     bufferTime
   );
 
-  React.useEffect(() => {
+  // Keep daySchedule in sync with modulesData
+  const { modulesData } = useContext(UserContext);
+
+  const findLessonInModules = React.useCallback((items, lessonId) => {
+    for (const item of items) {
+      if (item.id === lessonId) {
+        return item;
+      }
+      if (item.chapters) {
+        for (const chapter of item.chapters) {
+          if (chapter.lessons) {
+            const lesson = chapter.lessons.find((l) => l.id === lessonId);
+            if (lesson) return lesson;
+          }
+        }
+      }
+    }
+    return null;
+  }, []);
+
+  useEffect(() => {
+    if (daySchedule.length > 0) {
+      setDaySchedule((prevSchedule) =>
+        prevSchedule.map((lesson) => {
+          const updatedLesson = findLessonInModules(
+            modulesData.completed,
+            lesson.id
+          );
+          return updatedLesson || lesson;
+        })
+      );
+    }
+  }, [modulesData, findLessonInModules]);
+
+  const generateSchedule = useCallback(() => {
     setDaySchedule(latestLessons);
   }, [latestLessons]);
 
   return (
     <DayScheduleContext.Provider
       value={{
+        generateSchedule, // Keep for button usage
         daySchedule,
         setDaySchedule,
         availableTime,

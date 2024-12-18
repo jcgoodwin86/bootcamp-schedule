@@ -3,6 +3,7 @@ import { DayScheduleContext } from "../../../contexts/DayScheduleContext";
 import { Title, MetaData } from "../../UI/Card/Card";
 import Module from "../../ModuleList/index";
 import styles from "./LessonList.module.css";
+
 function LessonCard({ lesson }) {
   return (
     <Module.Card
@@ -19,6 +20,7 @@ function LessonCard({ lesson }) {
     </Module.Card>
   );
 }
+
 export default function LessonList({ children }) {
   const { daySchedule } = React.useContext(DayScheduleContext);
   // console.log(daySchedule); // For debugging
