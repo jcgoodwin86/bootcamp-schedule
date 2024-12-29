@@ -1,5 +1,5 @@
 import "./App.css";
-import { UserProvider } from "./contexts/UserContext";
+import { UserProvider } from "./contexts/UserProvider";
 import { DayScheduleProvider } from "./contexts/DayScheduleContext";
 import ModuleList from "./components/ModuleList/ModuleList/ModuleList";
 import DaySchedule from "./components/DaySchedule/Index";

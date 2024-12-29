@@ -8,7 +8,7 @@ const convertToSeconds = (time, buffer) => {
 
 export default function useLatestLessons(timeLimit, bufferTime) {
   const [latestLessons, setLatestLessons] = React.useState([]);
-  const { modulesData } = React.useContext(UserContext);
+  const { userData } = React.useContext(UserContext);
 
   const findIncompleteLessons = React.useCallback(
     (item, incompleteLessons = [], totalTime = 0) => {
@@ -59,10 +59,10 @@ export default function useLatestLessons(timeLimit, bufferTime) {
 
   React.useEffect(() => {
     if (timeLimit > 0) {
-      const { lessons } = findIncompleteLessons(modulesData.completed);
+      const { lessons } = findIncompleteLessons(userData.completed);
       setLatestLessons(lessons);
     }
-  }, [timeLimit, bufferTime, findIncompleteLessons, modulesData]);
+  }, [timeLimit, bufferTime, findIncompleteLessons, userData]);
 
   return { latestLessons };
 }
