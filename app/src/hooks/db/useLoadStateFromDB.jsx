@@ -1,5 +1,4 @@
-// Hook to initialize user data context
-import { useEffect, useState, useRef } from "react";
+import React from "react";
 import jsonData from "../../assets/data.json";
 import { get, set } from "../../services/db.js";
 
@@ -9,27 +8,34 @@ const initialState = {
   completed: [],
 };
 
-// Custom hook to load state from the database
-export default function useLoadStateFromDB() {
-  const [localUserData, setLocalUserData] = useState(initialState);
+async function getData() {
+  const data = await get(1);
+  if (data && data.completed[0]) {
+    return data;
+  }
 
-  useEffect(() => {
-    async function initializeDB() {
-      const data = await get(1);
-      if (data && data.completed[0]) {
-        setLocalUserData(data);
-      } else {
-        // Populate IndexedDB with default JSON data
-        const defaultData = {
-          ...initialState,
-          completed: [...jsonData],
-        };
-        await set(defaultData);
-        setLocalUserData(defaultData);
-      }
-    }
-    initializeDB();
+  // Populate IndexedDB with default JSON data
+  const defaultData = {
+    ...initialState,
+    completed: [...jsonData],
+  };
+  await set(defaultData);
+  return defaultData;
+}
+
+export default function useLoadStateFromDB() {
+  const [userData, setUserDataState] = React.useState(initialState);
+
+  React.useEffect(() => {
+    getData().then((data) => {
+      setUserDataState(data);
+    });
   }, []);
 
-  return { localUserData, setLocalUserData };
+  const setUserData = React.useCallback(async (newData) => {
+    await set(newData);
+    setUserDataState(newData);
+  }, []);
+
+  return { userData, setUserData };
 }

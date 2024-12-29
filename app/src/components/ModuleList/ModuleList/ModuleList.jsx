@@ -1,5 +1,5 @@
 // This component is responsible for rendering the list of modules, chapters, and lessons.
-import { useContext, useCallback } from "react";
+import React from "react";
 import Module from "../index";
 import ModuleListCSS from "./ModuleListCSS.module.css";
 import { ModuleTitle, Title, MetaData } from "../../UI/Card/Card";
@@ -47,11 +47,11 @@ function LessonCard({ lesson }) {
 }
 
 export default function ModuleList() {
-  const { modulesData } = useContext(UserContext);
-  const handleOpen = useCallback(() => console.log("Open/Closed"), []);
+  const { userData } = React.useContext(UserContext);
+  const handleOpen = React.useCallback(() => console.log("Open/Closed"), []);
   return (
     <section className={ModuleListCSS.moduleList}>
-      {modulesData.completed?.map((module, i) => (
+      {userData.completed?.map((module, i) => (
         <Module onOpen={handleOpen} key={module.id}>
           <ModuleCard id={module.id} completed={module.completed} index={i}>
             <ModuleTitle>

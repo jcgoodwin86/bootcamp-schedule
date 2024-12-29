@@ -1,7 +1,7 @@
 // Custom hook to manage course completion states in a hierarchical structure:
 // Module -> Chapters -> Lessons
-import { useContext, useCallback } from "react";
-import { UserContext } from "../contexts/UserContext.jsx";
+import React from "react";
+import { UserContext } from "../contexts/UserContext";
 
 const updateCompletionStatus = (items, idToToggle, forceComplete = null) => {
   return items.map((item) => {
@@ -65,18 +65,15 @@ const updateCompletionStatus = (items, idToToggle, forceComplete = null) => {
 
 // Use the function inside the hook
 export function useModuleData() {
-  const { modulesData, setModulesData } = useContext(UserContext);
+  const { userData, setUserData } = React.useContext(UserContext);
 
-  const updateModuleCompletion = useCallback(
+  const updateModuleCompletion = React.useCallback(
     (id) => {
-      const updatedModulesData = updateCompletionStatus(
-        modulesData.completed,
-        id
-      );
-      setModulesData({ ...modulesData, completed: [...updatedModulesData] });
+      const updatedModulesData = updateCompletionStatus(userData.completed, id);
+      setUserData({ ...userData, completed: [...updatedModulesData] });
     },
-    [modulesData, setModulesData]
+    [userData, setUserData]
   );
 
-  return { modulesData, updateModuleCompletion };
+  return { userData, updateModuleCompletion };
 }
