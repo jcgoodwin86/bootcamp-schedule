@@ -3,7 +3,7 @@ import React from "react";
 import style from "./ModuleCardCSS.module.css";
 import { Card } from "../../UI/Card/Card";
 import { ModuleContext } from "../Module/Module.jsx";
-import Checkbox from "../../ModuleList/Checkbox/Checkbox.jsx";
+import { Checkbox } from "../../UI/checkbox";
 import { useModuleData } from "../../../hooks/useModuleData.jsx";
 export default function ModuleCard({
   children,
@@ -23,7 +23,7 @@ export default function ModuleCard({
     <div onClick={handleClick} className={[style.span, style.space].join(" ")}>
       <Card>
         <Checkbox
-          completed={completed}
+          checked={completed}
           onChange={updateModuleCompletion}
           id={id}
         />
