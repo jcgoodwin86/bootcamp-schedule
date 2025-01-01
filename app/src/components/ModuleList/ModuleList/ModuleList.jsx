@@ -51,7 +51,7 @@ export default function ModuleList() {
   const handleOpen = React.useCallback(() => console.log("Open/Closed"), []);
   return (
     <section className={ModuleListCSS.moduleList}>
-      {userData.completed?.map((module, i) => (
+      {userData.curriculum?.map((module, i) => (
         <Module onOpen={handleOpen} key={module.id}>
           <ModuleCard id={module.id} completed={module.completed} index={i}>
             <ModuleTitle>

@@ -41,7 +41,7 @@ export const DayScheduleProvider = ({ children }) => {
       setDaySchedule((prevSchedule) =>
         prevSchedule.map((lesson) => {
           const updatedLesson = findLessonInModules(
-            userData.completed,
+            userData.curriculum,
             lesson.id
           );
           return updatedLesson || lesson;
