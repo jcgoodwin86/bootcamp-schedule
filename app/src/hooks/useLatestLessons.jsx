@@ -59,7 +59,7 @@ export default function useLatestLessons(timeLimit, bufferTime) {
 
   React.useEffect(() => {
     if (timeLimit > 0) {
-      const { lessons } = findIncompleteLessons(userData.completed);
+      const { lessons } = findIncompleteLessons(userData.curriculum);
       setLatestLessons(lessons);
     }
   }, [timeLimit, bufferTime, findIncompleteLessons, userData]);

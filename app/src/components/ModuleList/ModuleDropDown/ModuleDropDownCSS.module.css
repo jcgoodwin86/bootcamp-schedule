@@ -1,7 +1,0 @@
-.chapterCardContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  width: calc(100% - 2em);
-  margin-left: 2em;
-}

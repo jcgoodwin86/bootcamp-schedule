@@ -2,60 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Debugging */
 /* * {
   outline: 3px solid #33333325;
 } */
 
-/*
-  Josh's Custom CSS Reset
-  https://www.joshwcomeau.com/css/custom-css-reset/
-*/
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-* {
-  margin: 0;
-}
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
-#root,
-#__next {
-  isolation: isolate;
-}
-
-.hidden {
-  display: none;
-}
 /* Type Settings */
 
-html {
+/* html {
   font-size: 100%;
 }
 body {
@@ -149,17 +103,17 @@ h1,
 }
 .text-size-700 {
   font-size: var(--text-size-700);
-}
+} */
 
 /* CSS HSL */
-body {
+/* body {
   --french-gray: hsla(227, 8%, 77%, 1);
   --cerulean: hsla(198, 63%, 38%, 1);
   --light-green: hsla(124, 67%, 69%, 1);
   --maize: hsla(53, 98%, 65%, 1);
   --rich-black: hsla(195, 100%, 7%, 1);
   --shadow: hsla(195, 100%, 7%, 0.2);
-}
+} */
 @layer base {
   :root {
     --background: 0 0% 100%;

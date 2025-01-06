@@ -5,19 +5,19 @@ import { get, set } from "../../services/db.js";
 const initialState = {
   id: 1,
   user: "Guest",
-  completed: [],
+  curriculum: [],
 };
 
 async function getData() {
   const data = await get(1);
-  if (data && data.completed[0]) {
+  if (data && data.curriculum[0]) {
     return data;
   }
 
   // Populate IndexedDB with default JSON data
   const defaultData = {
     ...initialState,
-    completed: [...jsonData],
+    curriculum: [...jsonData],
   };
   await set(defaultData);
   return defaultData;
