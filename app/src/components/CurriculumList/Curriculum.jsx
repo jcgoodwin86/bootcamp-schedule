@@ -4,8 +4,8 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
-import { Checkbox } from "@/components/ui/checkbox";
+} from "@/components/UI/accordion";
+import { Checkbox } from "@/components/UI/checkbox";
 import { useModuleData } from "@/hooks/useModuleData.jsx";
 import { UserContext } from "@/contexts/UserContext";
 import Chapter from "./Chapter.jsx";
