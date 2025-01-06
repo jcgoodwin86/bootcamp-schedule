@@ -1,4 +1,4 @@
-import { Checkbox } from "../ui/checkbox";
+import { Checkbox } from "@/components/UI/checkbox";
 
 export default function Lesson({ lesson, onChange, ...props }) {
   return (

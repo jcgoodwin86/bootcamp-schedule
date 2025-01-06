@@ -2,8 +2,8 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "../ui/accordion";
-import { Checkbox } from "../ui/checkbox";
+} from "@/components/UI/accordion";
+import { Checkbox } from "@/components/UI/checkbox";
 
 export default function Chapter({ children, chapter, onChange, ...props }) {
   return (
