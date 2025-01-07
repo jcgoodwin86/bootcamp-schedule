@@ -1,39 +1,58 @@
 import React from "react";
 import { DayScheduleContext } from "../../../contexts/DayScheduleContext";
-import { Title, MetaData } from "../../UI/Card/Card";
-import Module from "../../ModuleList/index";
-import styles from "./LessonList.module.css";
+import { useModuleData } from "@/hooks/useModuleData.jsx";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/UI/card";
+import { Checkbox } from "@/components/UI/checkbox";
+import { cn } from "@/lib/utils";
 
 function LessonCard({ lesson }) {
+  const { updateModuleCompletion } = useModuleData();
+
   return (
-    <Module.Card
-      id={lesson.id}
-      completed={lesson.completed}
-      hasDropDown={false}
-    >
-      <Title>{lesson.title}</Title>
-      <MetaData>
-        <p>
-          Time: <span>{lesson.time}</span>
-        </p>
-      </MetaData>
-    </Module.Card>
+    <Card id={lesson.id}>
+      <CardHeader className="p-4">
+        <div className="flex flex-col">
+          <CardDescription className="pl-10 text-xs">
+            Time: <span>{lesson.time}</span>
+          </CardDescription>
+          <div className="flex gap-6 items-center">
+            <Checkbox
+              checked={lesson.completed}
+              onChange={updateModuleCompletion}
+              id={lesson.id}
+            />
+            <CardTitle className="text-xl">{lesson.title}</CardTitle>
+          </div>
+        </div>
+      </CardHeader>
+    </Card>
   );
 }
 
 export default function LessonList({ children }) {
   const { daySchedule } = React.useContext(DayScheduleContext);
-  // console.log(daySchedule); // For debugging
 
   return (
-    <div className={styles.lessonList}>
+    <div
+      className={cn(
+        "flex flex-col gap-4 mx-auto w-1/2",
+        !daySchedule[0] && "hidden"
+      )}
+    >
       {children}
-      {daySchedule[0] && <h4>Lessons For Today</h4>}
-      <Module>
-        {daySchedule.map((lesson) => (
-          <LessonCard key={lesson.id} lesson={lesson} />
-        ))}
-      </Module>
+      {daySchedule[0] && (
+        <h4 className="text-2xl text-center">Lessons For Today</h4>
+      )}
+      {daySchedule.map((lesson) => (
+        <LessonCard key={lesson.id} lesson={lesson} />
+      ))}
     </div>
   );
 }

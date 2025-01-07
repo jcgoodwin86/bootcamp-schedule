@@ -1,10 +1,11 @@
-import styles from "./TextInputCSS.module.css";
-export default function TextInput({ handleChange, children, id }) {
+import { Input } from "@/components/UI/input";
+
+export default function TimeNumberInput({ handleChange, children, id }) {
   let inputEle;
 
   if (id === "availableTimeHour") {
     inputEle = (
-      <input
+      <Input
         id={id}
         type="number"
         min="0"
@@ -15,7 +16,7 @@ export default function TextInput({ handleChange, children, id }) {
     );
   } else {
     inputEle = (
-      <input
+      <Input
         id={id}
         type="number"
         min="0"
@@ -27,7 +28,7 @@ export default function TextInput({ handleChange, children, id }) {
   }
 
   return (
-    <div className={styles.textInput}>
+    <div className="grid w-full max-w-sm items-center gap-1.5">
       {children}
       {inputEle}
     </div>
