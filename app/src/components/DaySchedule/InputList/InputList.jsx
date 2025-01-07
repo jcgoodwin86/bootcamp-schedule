@@ -1,11 +1,11 @@
 import React from "react";
-import TextInput from "../TextInput/TextInput";
-import Button from "../../UI/Button/Button";
-import style from "./InputWrapper.module.css";
+import TimeNumberInput from "../TimeNumberInput/TimeNumberInput";
+import { Button } from "@/components/UI/button";
+import { Label } from "@/components/UI/label";
 import { DayScheduleContext } from "../../../contexts/DayScheduleContext";
 import debounce from "../../../utils/debouncer";
 
-export default function InputWrapper() {
+export default function InputList() {
   const {
     generateSchedule,
     availableTime,
@@ -46,24 +46,28 @@ export default function InputWrapper() {
   };
 
   return (
-    <div className={style.wrapper}>
-      <TextInput
+    <div className="flex gap-4 items-end mx-auto w-1/2">
+      <TimeNumberInput
         time={availableTime}
         handleChange={handleChange1}
         id="availableTimeHour"
       >
-        <span>Hours Available</span>
-      </TextInput>
-      <TextInput
+        <Label htmlFor="availableTimeHour">Hours</Label>
+      </TimeNumberInput>
+      <TimeNumberInput
         time={availableTime}
         handleChange={handleChange2}
         id="availableTimeMinute"
       >
-        <span>Minutes Available</span>
-      </TextInput>
-      <TextInput time={bufferTime} handleChange={handleChange3} id="bufferTime">
-        <span>Buffer Time</span>
-      </TextInput>
+        <Label htmlFor="availableTimeMinute">Minutes</Label>
+      </TimeNumberInput>
+      <TimeNumberInput
+        time={bufferTime}
+        handleChange={handleChange3}
+        id="bufferTime"
+      >
+        <Label htmlFor="bufferTime">Buffer Minutes</Label>
+      </TimeNumberInput>
       <Button onClick={generateSchedule}>Create List</Button>
     </div>
   );

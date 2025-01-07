@@ -1,8 +1,8 @@
 import DaySchedule from "./DaySchedule/DaySchedule";
-import InputWrapper from "./InputWrapper/InputWrapper";
+import InputList from "./InputList/InputList";
 import LessonList from "./LessonList/LessonList";
 
-DaySchedule.InputWrapper = InputWrapper;
+DaySchedule.InputList = InputList;
 DaySchedule.LessonList = LessonList;
 
 export default DaySchedule;
