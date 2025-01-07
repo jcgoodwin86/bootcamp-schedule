@@ -8,7 +8,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@/components/UI/card";
 import { Checkbox } from "@/components/UI/checkbox";
 import { cn } from "@/lib/utils";
 
