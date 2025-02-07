@@ -10,7 +10,7 @@ export const DayScheduleProvider = ({ children }) => {
     hours: 0,
     minutes: 0,
   });
-  const [bufferTime, setBufferTime] = React.useState("");
+  const [bufferTime, setBufferTime] = React.useState(0);
   const { latestLessons } = useLatestLessons(
     availableTime.hours * 60 * 60 + availableTime.minutes * 60,
     bufferTime
@@ -54,10 +54,21 @@ export const DayScheduleProvider = ({ children }) => {
     setDaySchedule(latestLessons);
   }, [latestLessons]);
 
+  const resetTime = React.useCallback(() => {
+    setAvailableTime({ hours: 0, minutes: 0 });
+    setBufferTime(0);
+  }, []);
+
+  const clearSchedule = React.useCallback(() => {
+    setDaySchedule([]);
+    resetTime();
+  }, [resetTime]);
+
   return (
     <DayScheduleContext.Provider
       value={{
         generateSchedule, // Keep for button usage
+        clearSchedule,
         daySchedule,
         setDaySchedule,
         availableTime,

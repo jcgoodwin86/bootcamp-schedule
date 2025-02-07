@@ -1,6 +1,6 @@
 import { Input } from "@/components/UI/input";
 
-export default function TimeNumberInput({ handleChange, children, id }) {
+export default function TimeNumberInput({ handleChange, children, id, value }) {
   let inputEle;
 
   if (id === "availableTimeHour") {
@@ -11,7 +11,7 @@ export default function TimeNumberInput({ handleChange, children, id }) {
         min="0"
         max="8"
         onChange={handleChange}
-        defaultValue="0"
+        value={value}
       />
     );
   } else {
@@ -22,7 +22,7 @@ export default function TimeNumberInput({ handleChange, children, id }) {
         min="0"
         max="59"
         onChange={handleChange}
-        defaultValue="0"
+        value={value}
       />
     );
   }
