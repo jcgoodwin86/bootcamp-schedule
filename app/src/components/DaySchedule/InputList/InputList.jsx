@@ -6,12 +6,17 @@ import { DayScheduleContext } from "../../../contexts/DayScheduleContext";
 import debounce from "../../../utils/debouncer";
 
 export default function InputList() {
+  const [hours, setHours] = React.useState(0);
+  const [minutes, setMinutes] = React.useState(0);
+  const [bufferMinutes, setBufferMinutes] = React.useState(0);
+
   const {
     generateSchedule,
     availableTime,
     bufferTime,
     setAvailableTime,
     setBufferTime,
+    clearSchedule,
   } = React.useContext(DayScheduleContext);
 
   const debouncedSetAvailableTime = React.useRef(
@@ -25,6 +30,7 @@ export default function InputList() {
       event.target.value = 8;
     }
     const { value } = event.target;
+    setHours(value);
     debouncedSetAvailableTime.current({ ...availableTime, hours: value });
   };
 
@@ -34,6 +40,7 @@ export default function InputList() {
       event.target.value = 59;
     }
     const { value } = event.target;
+    setMinutes(value);
     debouncedSetAvailableTime.current({ ...availableTime, minutes: value });
   };
 
@@ -42,33 +49,46 @@ export default function InputList() {
       event.target.value = 59;
     }
     const { value } = event.target;
+    setBufferMinutes(value);
     debouncedSetBufferTime.current(value);
   };
+
+  function resetInputs() {
+    setHours(0);
+    setMinutes(0);
+    setBufferMinutes(0);
+  }
+
+  function handleClear() {
+    resetInputs();
+    clearSchedule();
+  }
 
   return (
     <div className="flex gap-4 items-end mx-auto w-1/2">
       <TimeNumberInput
-        time={availableTime}
+        value={hours}
         handleChange={handleChange1}
         id="availableTimeHour"
       >
         <Label htmlFor="availableTimeHour">Hours</Label>
       </TimeNumberInput>
       <TimeNumberInput
-        time={availableTime}
+        value={minutes}
         handleChange={handleChange2}
         id="availableTimeMinute"
       >
         <Label htmlFor="availableTimeMinute">Minutes</Label>
       </TimeNumberInput>
       <TimeNumberInput
-        time={bufferTime}
+        value={bufferMinutes}
         handleChange={handleChange3}
         id="bufferTime"
       >
         <Label htmlFor="bufferTime">Buffer Minutes</Label>
       </TimeNumberInput>
       <Button onClick={generateSchedule}>Create List</Button>
+      <Button variant="destructive" onClick={handleClear}>Clear</Button>
     </div>
   );
 }

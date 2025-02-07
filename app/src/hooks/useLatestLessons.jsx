@@ -61,6 +61,8 @@ export default function useLatestLessons(timeLimit, bufferTime) {
     if (timeLimit > 0) {
       const { lessons } = findIncompleteLessons(userData.curriculum);
       setLatestLessons(lessons);
+    } else {
+      setLatestLessons([]); // Clear lessons when time is 0
     }
   }, [timeLimit, bufferTime, findIncompleteLessons, userData]);
 
