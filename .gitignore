@@ -58,3 +58,7 @@ dist/
 
 # aider cache
 .aider*
+
+# zero
+zero-schema.json
+.vercel
