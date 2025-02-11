@@ -9,45 +9,35 @@ CREATE TABLE "module" (
     data JSONB
 );
 
--- Copy the JSON file content into a temporary table
-CREATE TEMP TABLE temp_json (content JSONB);
-
 -- Use the pg_read_file function to read the entire file at once
-INSERT INTO temp_json(content)
-SELECT jsonb_array_elements(pg_read_file('/docker-entrypoint-initdb.d/data.json')::jsonb);
-
--- Insert the data into the module table
 INSERT INTO module (id, data)
-SELECT 
-    content->>'id',
-    content
-FROM temp_json;
+VALUES ('all_modules', pg_read_file('/docker-entrypoint-initdb.d/data.json')::jsonb);
 
 -- -- Example queries to work with the JSON data:
 
 -- -- Get all modules with their basic info
 -- SELECT 
---     data->>'title' as title,
---     data->>'module' as module_number,
---     data->>'totalLessons' as total_lessons,
---     data->>'totalTime' as total_time
+--     jsonb_array_elements(data)->>'title' as title,
+--     jsonb_array_elements(data)->>'module' as module_number,
+--     jsonb_array_elements(data)->>'totalLessons' as total_lessons,
+--     jsonb_array_elements(data)->>'totalTime' as total_time
 -- FROM module
--- ORDER BY data->>'module';
+-- ORDER BY jsonb_array_elements(data)->>'module';
 
 -- -- Get all chapters for a specific module
 -- SELECT 
---     jsonb_array_elements(data->'chapters')->>'title' as chapter_title,
---     jsonb_array_elements(data->'chapters')->>'totalLessons' as lessons,
---     jsonb_array_elements(data->'chapters')->>'totalTime' as duration
+--     jsonb_array_elements(jsonb_array_elements(data)->'chapters')->>'title' as chapter_title,
+--     jsonb_array_elements(jsonb_array_elements(data)->'chapters')->>'totalLessons' as lessons,
+--     jsonb_array_elements(jsonb_array_elements(data)->'chapters')->>'totalTime' as duration
 -- FROM module 
--- WHERE data->>'module' = 'Module 1';
+-- WHERE jsonb_array_elements(data)->>'module' = 'Module 1';
 
 -- -- Get all lessons for a specific chapter
 -- WITH chapters AS (
 --     SELECT 
---         m.data->>'title' as module_title,
---         jsonb_array_elements(m.data->'chapters') as chapter
---     FROM module m
+--         jsonb_array_elements(data)->>'title' as module_title,
+--         jsonb_array_elements(data->'chapters') as chapter
+--     FROM module
 -- )
 -- SELECT 
 --     module_title,
@@ -60,9 +50,9 @@ FROM temp_json;
 -- -- Get total duration of all lessons in minutes (requires some string processing)
 -- WITH RECURSIVE lessons AS (
 --     SELECT 
---         jsonb_array_elements(m.data->'chapters') as chapter,
---         m.data->>'title' as module_title
---     FROM module m
+--         jsonb_array_elements(data->'chapters') as chapter,
+--         jsonb_array_elements(data)->>'title' as module_title
+--     FROM module
 -- ),
 -- lesson_times AS (
 --     SELECT 
@@ -94,36 +84,36 @@ FROM temp_json;
 --     ARRAY['chapters', 0, 'lessons', 0, 'completed'],
 --     'true'::jsonb
 -- )
--- WHERE id = 'c20af5de-9737-45a0-aaae-4ce2ea726b93';
+-- WHERE id = 'all_modules';
 
 -- -- Get progress summary for each module
 -- SELECT 
---     data->>'title' as module_title,
---     data->>'module' as module_number,
+--     jsonb_array_elements(data)->>'title' as module_title,
+--     jsonb_array_elements(data)->>'module' as module_number,
 --     (
 --         SELECT COUNT(*)
---         FROM jsonb_array_elements(m.data->'chapters') c,
+--         FROM jsonb_array_elements(jsonb_array_elements(data)->'chapters') c,
 --              jsonb_array_elements(c->'lessons') l
 --         WHERE l->>'completed' = 'true'
 --     ) as completed_lessons,
 --     (
 --         SELECT COUNT(*)
---         FROM jsonb_array_elements(m.data->'chapters') c,
+--         FROM jsonb_array_elements(jsonb_array_elements(data)->'chapters') c,
 --              jsonb_array_elements(c->'lessons') l
 --     ) as total_lessons,
 --     ROUND(
 --         (
 --             SELECT COUNT(*)::float
---             FROM jsonb_array_elements(m.data->'chapters') c,
+--             FROM jsonb_array_elements(jsonb_array_elements(data)->'chapters') c,
 --                  jsonb_array_elements(c->'lessons') l
 --             WHERE l->>'completed' = 'true'
 --         ) /
 --         (
 --             SELECT COUNT(*)::float
---             FROM jsonb_array_elements(m.data->'chapters') c,
+--             FROM jsonb_array_elements(jsonb_array_elements(data)->'chapters') c,
 --                  jsonb_array_elements(c->'lessons') l
 --         ) * 100,
 --         2
 --     ) as completion_percentage
--- FROM module m
--- ORDER BY data->>'module';
+-- FROM module
+-- ORDER BY jsonb_array_elements(data)->>'module';

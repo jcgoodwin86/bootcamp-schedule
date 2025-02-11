@@ -70,10 +70,11 @@ export function useModuleData() {
   const updateModuleCompletion = React.useCallback(
     (id) => {
       const updatedModulesData = updateCompletionStatus(
-        userData.curriculum,
+        userData,
         id
       );
-      setUserData({ ...userData, curriculum: [...updatedModulesData] });
+      console.log(updatedModulesData);
+      setUserData(updatedModulesData);
     },
     [userData, setUserData]
   );
