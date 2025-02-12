@@ -14,7 +14,7 @@ const z = new Zero({
   schema,
   // This is often easier to develop with if you're frequently changing
   // the schema. Switch to 'idb' for local-persistence.
-  kvStore: "mem",
+  kvStore: "idb",
 })
 
 ReactDOM.createRoot(document.getElementById('root')).render(
