@@ -26,6 +26,7 @@ jspm_packages/
 
 # Environment Variables
 .env
+.dotenv
 
 # Production related
 /dist
@@ -58,3 +59,7 @@ dist/
 
 # aider cache
 .aider*
+
+# zero
+zero-schema.json
+.vercel

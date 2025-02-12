@@ -1,0 +1,65 @@
+app = "bootcamp-zstart-cache"
+primary_region = 'mia'
+
+[build]
+image = "registry.hub.docker.com/rocicorp/zero:0.14.2025020701"
+
+[http_service]
+internal_port = 4848
+force_https = true
+auto_stop_machines = 'off'
+min_machines_running = 1
+
+[[http_service.checks]]
+grace_period = "10s"
+interval = "30s"
+method = "GET"
+timeout = "5s"
+path = "/"
+
+[[vm]]
+memory = '2gb'
+cpu_kind = 'shared'
+cpus = 2
+
+[mounts]
+source = "sqlite_db"
+destination = "/data"
+
+[env]
+LOG_LEVEL = "debug"
+ZERO_SCHEMA_JSON = """{
+  "permissions": {
+    "module": {
+      "row": {
+        "insert": [],
+        "update": {},
+        "delete": []
+      }
+    }
+  },
+  "schema": {
+    "version": 1,
+    "tables": {
+      "module": {
+        "name": "module",
+        "columns": {
+          "id": {
+            "type": "string",
+            "optional": false,
+            "customType": null
+          },
+          "data": {
+            "type": "json",
+            "optional": false,
+            "customType": null
+          }
+        },
+        "primaryKey": [
+          "id"
+        ]
+      }
+    },
+    "relationships": {}
+  }
+}"""
