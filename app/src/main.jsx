@@ -5,6 +5,7 @@ import './index.css'
 import { Zero } from "@rocicorp/zero";
 import { ZeroProvider } from "@rocicorp/zero/react";
 import { schema } from "./schema";
+import { Auth0Provider } from '@auth0/auth0-react';
 
 const userID = "anon";
 
@@ -19,8 +20,15 @@ const z = new Zero({
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ZeroProvider zero={z}>
-      <App />
-    </ZeroProvider>
+    <Auth0Provider
+    domain="dev-x4ppik6hz0odlezu.us.auth0.com"
+    clientId="lNBfdEfUYOSDXntXjE62J5fgoS4hcYDF"
+    authorizationParams={{
+      redirect_uri: window.location.origin
+    }} >
+      <ZeroProvider zero={z}>
+        <App />
+      </ZeroProvider>
+    </Auth0Provider>
   </React.StrictMode>,
 )
