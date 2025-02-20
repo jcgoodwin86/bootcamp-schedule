@@ -12,12 +12,12 @@ import Chapter from "./Chapter.jsx";
 import Lesson from "./Lesson.jsx";
 
 export default function CurriculumList() {
-  const { userData } = React.useContext(UserContext);
+  const { user } = React.useContext(UserContext);
   const { updateModuleCompletion } = useModuleData();
 
   return (
     <Accordion type="single" collapsible className="mx-auto max-w-screen-lg">
-      {userData.curriculum?.map((module) => (
+      {user?.data?.map((module) => (
         <AccordionItem value={module.id} key={module.id}>
           <div className="flex gap-6 items-center">
             <Checkbox

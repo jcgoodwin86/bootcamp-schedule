@@ -13,7 +13,6 @@ export default function InputList() {
   const {
     generateSchedule,
     availableTime,
-    bufferTime,
     setAvailableTime,
     setBufferTime,
     clearSchedule,

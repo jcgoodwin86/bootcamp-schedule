@@ -65,18 +65,17 @@ const updateCompletionStatus = (items, idToToggle, forceComplete = null) => {
 
 // Use the function inside the hook
 export function useModuleData() {
-  const { userData, setUserData } = React.useContext(UserContext);
-
+  const { user, updateUser } = React.useContext(UserContext);
   const updateModuleCompletion = React.useCallback(
     (id) => {
       const updatedModulesData = updateCompletionStatus(
-        userData.curriculum,
+        user?.data,
         id
       );
-      setUserData({ ...userData, curriculum: [...updatedModulesData] });
+      updateUser(user.id, updatedModulesData);
     },
-    [userData, setUserData]
+    [user, updateUser]
   );
 
-  return { userData, updateModuleCompletion };
+  return { user, updateModuleCompletion };
 }
